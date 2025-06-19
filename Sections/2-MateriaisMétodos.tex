@@ -1,0 +1,127 @@
+\section[\MakeUppercase{Materiais e Métodos}]{\texorpdfstring{\MakeUppercase{Materiais e Métodos}}{MATERIAIS E MÉTODOS}}\label{sec:materiais e métodos}
+
+O aparato experimental consiste em um sistema de condicionamento de ar automotivo equipado com transdutores de pressão, temperatura e umidade relativa, vazão mássica e controle de temperatura com resistências elétricas, além de um sistema de aquisição de dados instalado na bancada de testes, destinado à execução de ensaios experimentais e à coleta de dados. Detalhes adicionais sobre a bancada experimental podem ser encontrados no relatório de \textcite{deoliveira2023} e no artigo de \textcite{dasilva2024}.
+
+As atividades experimentais serão conduzidas no laboratório de refrigeração veicular, situado no campus Joinville da Universidade Federal de Santa Catarina \cite{reve2023}. Por sua vez, uma imagem real da bancada que será utilizada para a obtenção dos dados experimentais é apresentada na Figura \ref{fig:bancada de teste}.
+
+\begin{figure}[ht]
+    \centering
+     \caption{Bancada experimental.}
+    \includegraphics[width=13.56cm, height=10.99cm]{FigurasdoTexto/Bancada Experimental.png}
+    \vspace{5pt}  % Add space before source
+    
+    {\footnotesize Fonte: O Autor(2024)}  % Source text in smaller font
+    \label{fig:bancada de teste}
+\end{figure}
+\newpage
+Para a coleta de dados, foram instalados transdutores em pontos específicos no sistema de condicionamento de ar, com 17 transdutores de temperatura, 2 transdutores de pressão, 2 transdutores de umidade relativa e 3 resistências para o controle de temperatura. As posições dos pontos de medição das propriedades do sistema estão presentes na figura \ref{fig:instalação transdutores}. 
+
+\begin{figure}[ht]
+    \centering
+     \caption{Representação dos pontos de instalação dos transdutores.}
+    \includegraphics[width=11.75cm, height=11.88cm]{FigurasdoTexto/Instalação Transdutores.png}
+    \vspace{5pt}  % Add space before source
+    
+    {\footnotesize Fonte: O Autor(2024)}  % Source text in smaller font
+    \label{fig:instalação transdutores}
+\end{figure}
+\newpage
+\subsection{PLANEJAMENTO EXPERIMENTAL}
+
+O plano de teste foi desenvolvido com o objetivo de validar os dados obtidos pelo sistema de aquisição. Para a realização da fase experimental, foram elaborados dois roteiros para duas análises distintas: A primeira, que pode ser encontrada na tabela \ref{tab:pertubaçõesTransiente}, tem o intuito único de analisar como diferentes perturbações causadas ao sistema afetam seu comportamento transiente. Os testes serão realizados alterando dois principais parâmetros: a frequência de rotação do compressor e a posição de velocidade do ventilador do evaporador.
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Perturbação} & \makecell{\textbf{Frequência de Rotação do} \\ \textbf{Compressor Esperada [RPM]}} & \textbf{Posição Ventilador} \\
+        \hline
+        P1 & 500 & 1 $\rightarrow$ 4  \\
+        P2 & 500 $\rightarrow$ 890 & 4  \\
+        P3 & 890 & 4 $\rightarrow$ 1  \\
+        \hline
+    \end{tabular}
+    \caption{Perturbações Geradas no Sistema de Refrigeração para Análise do Transiente}
+    \vspace{5pt} 
+{\footnotesize Fonte: O Autor(2025) }
+    \label{tab:pertubaçõesTransiente}
+\end{table}
+
+Na segunda análise, o intuito principal muda. Pretende-se gerar uma perturbação ao sistema, esperar que ele entre em estado permanente e, então, voltar ao seu estado inicial, observando assim se existe histerese no sistema de refrigeração e, posteriormente, avaliando seu impacto. A tabela \ref{tab:pertubaçõesHisterese} então mostra as perturbações causadas no sistema para a segunda parte deste trabalho. Apenas a frequência de rotação foi alterada, aumentando-a e depois voltando ao ponto original, mantendo a posição do ventilador fixa.
+\\
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Perturbação} & \makecell{\textbf{Frequência de Rotação do} \\ \textbf{Compressor Esperada [RPM]}} & \textbf{Posição Ventilador} \\
+        \hline
+        P4 & 890 $\rightarrow$ 1074 & 4  \\
+        P5 & 1074 $\rightarrow$ 890 & 4  \\
+        \hline
+    \end{tabular}
+    \caption{Perturbações Geradas no Sistema de Refrigeração para Análise da Histerese}
+    
+    \vspace{5pt} 
+    {\footnotesize Fonte: O Autor (2025)}
+    \label{tab:pertubaçõesHisterese}
+\end{table}
+
+Para alterar a frequência de rotação do compressor, o laboratório \textcite{reve2023} tem à sua disposição um inversor CFW-300 da WEG conforme a figura \ref{fig:inversor CFW-300}. O inversor controla a amplitude e frequência do sinal (em Hertz) de tensão alternada que chega até o motor trifásico que é acoplado ao compressor através de uma embreagem eletromagnética. Este sinal de tensão com frequência diferente da rede elétrica é, então, responsável por controlar a velocidade de rotação do motor e, por consequência, do compressor. A variação da frequência pode ser facilmente alterada nos parâmetros do inversor e, com a ajuda de uma tabela experimental do laboratório, é possível saber a correspondência da frequência de rotação em Hertz do sinal gerado pela rotação do compressor em RPM.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.45\linewidth]{FigurasdoTexto/inversorcfw-300.jpeg}
+    \caption{Inversor CFW-300 Utilizado para Alterar a Velocidade de Rotação do Compressor}
+    \label{fig:inversor CFW-300}
+    {\footnotesize Fonte: O Autor(2025)}
+\end{figure}
+
+A posição do ventilador pode ser alterada em um painel analógico que é similar ao de muitos automóveis comerciais, como mostra a figura \ref{fig:painelMudançadeVelocidadeVentilador}. É evidente que, diferentemente da frequência de rotação do compressor, o controle da velocidade do ventilador é menos preciso. A posição 0 representa o ventilador completamente desligado,enquanto as posições 1-4 representam um crescente de velocidade. No entanto, não é possível aferir a velocidade do ar nestas posições, apenas é possível determinar que são distintas,sendo a posição 1 a velocidade mínima e 4 a máxima. 
+\newpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{FigurasdoTexto/painelMudançadeVelocidadeVentilador.jpeg}
+    \caption{Painel Utilizado para Alterar a Velocidade do Ventilador do Evaporador}
+    \label{fig:painelMudançadeVelocidadeVentilador}
+
+    {\footnotesize Fonte: O Autor(2025)}
+
+\end{figure}
+
+\subsection{Determinação dos Tempos de Acomodação do Sistema}
+
+\subsection{Análise e Comparação das Histereses} \label{subsec:Método de Análise da Histerese}
+
+Antes de realizar as análises em si, é preciso definir uma forma de comparar a histerese de várias variáveis diferentes de forma única. A histerese é usualmente definida como a área entre as curvas de subida e descida,isto é, a diferença de caminho entre a ida e volta a um mesmo ponto. A fim de ser possível relacionar diferentes variáveis com variações distintas, a histerese será calculada da seguinte forma: é feito o cálculo da diferença entre a área das curvas de subida e descida da velocidade de rotação do compressor, então esta área é dividida pela multiplicação dos intervalos das variáveis nos eixos t e y a fim de normalizá-la; por fim, é aplicado o módulo neste número. De forma genérica pode-se escrever a fórmula utilizada para o cálculo da histerese normalizada $\text{H}_\text{norm}$ como:
+
+\begin{equation}
+    H_{norm} = \abs*{{\frac{\int_{t_0} ^t  f_{subida}(t) dt - \int_{t_0} ^t  f_{descida}(t) dt   }{\Delta y\Delta t }}}
+    \label{eq:histerese normalizada}
+\end{equation}
+\\
+Em que t representa o tempo do teste, e as funções genéricas $f$ podem representar: temperatura, pressão ou vazão de fluido refrigerante. No entanto, como estas funções de ida e da volta na equação \ref{eq:histerese normalizada} são desconhecidas, dada a natureza do estudo experimental, estas integrais são calculadas de forma numérica utilizando o método numérico de 1/3 de Simpson composto \cite{ChapraNumerico}. Uma representação visual do que a equação \ref{eq:histerese normalizada} representa é apresentada na figura \ref{fig:representação visual da histerese normalizada}, as funções $f_{subida}(t)$ e $f_{descida}(t)$ são representadas pelas curvas não tracejadas e o retângulo tracejado representa a área $\Delta y \Delta t$. Ao encontrar a área entre as duas curvas e dividi-la pela área do retângulo em que elas estão inscritas, encontra-se a porcentagem de histerese de determinada variável.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\linewidth]{FigurasdoTexto/Representação visual da histerese.png}
+    \caption{Representação Visual da Histerese Normalizada}
+    \label{fig:representação visual da histerese normalizada}
+    {\footnotesize Fonte: O autor (2025)}
+\end{figure}
+
+
+\subsection{Determinação do COP do Sistema}
+
+O COP segue alguns dos métodos e dados experimentais já utilizados e existentes no laboratório \textcite{reve2023}, como no artigo de \cite{ExperimentalThermalPerformance} no qual já constam dados experimentais da taxa de transferência de massa necessária para calcular o COP nas condições deste artigo. Isto é, ele será avaliado da seguinte forma:
+
+\begin{equation}
+    COP = \frac{\dot Q_e}{\dot W}
+\end{equation}
+
+Em que $\dot W$ é o consumo de potência do compressor e $ \dot Q_e$ é a capacidade de resfriamento do evaporador dada por:
+
+\begin{equation}
+    \dot Q_e = \dot m_{ar}(h_{ar,entrada} - h_{ar,saída})
+\end{equation}
+
+Em que $\dot m_{ar}$ é a taxa de transferência de massa de ar e $h_{ar}$ é a entalpia do ar úmido. O valor de $\dot m_{ar}$ será definido como 0,058 kg/s, dados experimentais provenientes do artigo de \textcite{ExperimentalThermalPerformance}. Os dados de entalpia são determinados utilizando o software ESS, para o cálculo das entalpias de entrada, os dados experimentais da temperatura e umidade relativa de entrada do evaporador foram utilizados, assumindo pressão constante igual a uma atmosfera. Para as entalpias de saída, foi também assumida uma pressão constante de uma atmosfera e utilizando os dados de temperatura e umidade relativa de saída do evaporador. 

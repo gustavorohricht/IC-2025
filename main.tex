@@ -1,0 +1,197 @@
+\documentclass[12pt]{article}
+\usepackage[left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}% //margens conforme a abnt se precisar
+\usepackage{graphicx} % Required for inserting images
+\usepackage{nameref} % Must come after hyperref
+\usepackage{fontspec}
+\usepackage{makecell} % Add this in the preamble
+\usepackage{hyperref}
+\usepackage{titlecaps}
+\usepackage{titlesec}
+\usepackage{tocloft}  % For customizing ToC
+\usepackage{textcomp}
+ \usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\usepackage{indentfirst}
+\usepackage{url}          % For handling URLs
+
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\usepackage{floatrow}
+\floatsetup[table]{capposition=top}
+\floatsetup[figure]{capposition=top}
+
+\usepackage{caption}    % For modifying caption styles
+%\DeclareCaptionFont{custom}{\fontsize{12pt}{14pt}\selectfont}
+%\captionsetup{font=custom} 
+
+% If you want a dash instead of a space, use:
+\captionsetup[figure]{labelsep=endash} % Makes it "Figure X –"
+
+\captionsetup[table]{labelsep=endash} % Removes ":" after "Table X"
+
+
+% Fix section number to be just arabic (1, 2, ...)
+\renewcommand{\thesection}{\arabic{section}}
+
+% Add dot after section number in heading
+%\titlelabel{\thetitle.\quad}
+
+\renewcommand{\numberline}[1]{#1\hspace{0.8em}}  % controla espaçamento depois do número
+
+\usepackage{setspace}  % Import setspace package
+\onehalfspacing  % Sets line spacing to 1.5
+
+% Load biblatex with abnt style and biber backend
+
+\usepackage[
+backend=biber,
+style=abnt,
+maxcitenames=3,
+sorting=nyt,
+language=brazilian,
+repeatfields=true
+]{biblatex}
+
+%\renewcommand{\abntetalchar}{\textit{et al.}}
+
+% Custom macro to show "Disponível em:" and "Acesso em:"
+\renewbibmacro*{url} {
+  \iffieldundef{url}{}{
+    \printtext{Disponível em:} \space \printfield{url}
+  }
+}
+
+\addbibresource{referencias.bib}
+
+\DeclareFieldFormat[inproceedings]{title}{\textbf{#1}}
+
+\renewbibmacro*{name:andothers}{% Based on name:andothers from biblatex.def
+  \ifboolexpr{
+    test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+    and
+    test \ifmorenames
+  }
+    {\ifnumgreater{\value{liststop}}{1}
+       {\finalandcomma}
+       {}%
+     \andothersdelim\bibstring[\emph]{andothers}}
+    {}}
+
+
+% Redefining maketitle to swap order
+\makeatletter
+\renewcommand{\maketitle}{
+  \begin{center}
+    {\@author}  % Author first
+
+    \vspace{6\baselineskip}
+    
+    {\@title} % Title second
+    
+    \vspace{2\baselineskip}
+
+  \end{center}
+}
+\makeatother
+
+% Redefine the URL command to remove angle brackets
+%\renewcommand{\UrlLeft}{}
+%\renewcommand{\UrlRight}{}
+
+\hypersetup{
+    colorlinks=true,        % Enable colored links
+    linkcolor=black,        % No color for internal links like references
+    citecolor=black,        % No color for citation links
+    urlcolor=blue           % Keep color for external URLs
+}
+
+% Remove inverted symbols around URL
+\DeclareFieldFormat{url}{\url{#1}}
+
+%\pagestyle{fancy}
+%\fancyhf{} % Clear header and footer
+%\fancyhead[R]{\thepage} % Place page number in the top right
+%\renewcommand{\headrulewidth}{0pt} % Remove the line at the top
+
+% Add dots (leaders) between the title and page number in the ToC
+%\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+% Customize the online entry type to reorder "Disponível em" and "Acesso em"
+% Rename "Contents" to "Súmario"
+\renewcommand{\contentsname}{\MakeUppercase{Sumário}}
+\renewcommand{\abstractname}{Resumo}
+\renewcommand{\figurename}{Figura} %Troca "Figure" por "Figura" 
+\renewcommand{\listfigurename}{\MakeUppercase{Lista de Figuras}}
+\renewcommand{\listtablename}{\MakeUppercase{Lista de Tabelas}}
+\renewcommand{\tablename}{Tabela}
+
+
+\title{AVALIAÇÃO DO DESEMPENHO ENERGÉTICO DE SISTEMAS AUTOMOTIVOS DE CONDICIONAMENTO DE AR}
+\author{GUSTAVO ROHRICHT MACHADO}
+\date{April 2025}
+
+%hyphenations
+\hyphenation{con-di-ções}  % Allows LaTeX to break "condições" properly
+\hyphenation{vo-lu-mé-tri-ca}  
+\hyphenation{gran-de-zas}
+\hyphenation{ins-tru-men-ta-da}
+\hyphenation{pa-râ-me-tros}
+\hyphenation{des-car-ga}
+\hyphenation{tem-pe-ra-tu-ras}
+
+\begin{document}
+
+%--------------------------------------------------
+
+\include{AntesdoTexto/1-Capa}
+
+%--------------------------------------------------
+
+\include{AntesdoTexto/2-Resumos}
+
+%--------------------------------------------------
+
+\include{AntesdoTexto/3-Agradecimentos}
+
+%--------------------------------------------------
+
+\include{AntesdoTexto/4-Listas e Sumário}
+
+%--------------------------------------------------
+
+\newpage
+\pagenumbering{arabic}  % Resume numbering
+\setcounter{page}{8}  %
+\pagestyle{plain}  % Force page number to appear again
+
+\pagestyle{fancy}
+\fancyhf{}  % Clear header and footer
+\fancyfoot[R]{\thepage}  % Move page number to lower right
+\renewcommand{\headrulewidth}{0pt}  % Remove header line
+\renewcommand{\footrulewidth}{0pt}  % Remove footer line
+
+%--------------------------------------------------
+
+\include{Sections/1-Introdução}
+
+%--------------------------------------------------
+
+\include{Sections/2-MateriaisMétodos}
+
+%--------------------------------------------------
+
+\include{Sections/3-ResultadosDiscussão}
+
+%--------------------------------------------------
+
+\include{Sections/4-Conclusão}
+
+%--------------------------------------------------
+
+\addcontentsline{toc}{section}{REFERÊNCIAS}
+\renewcommand{\refname}{\MakeUppercase{Referências}}
+\printbibliography
+
+\end{document}

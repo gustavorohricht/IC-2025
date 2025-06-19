@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}INTRODUÇÃO}{8}{section.1}%
+\contentsline {subsection}{\numberline {1.1}OBJETIVOS}{9}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Objetivo Geral}{9}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Objetivos Específicos}{10}{subsubsection.1.1.2}%
+\contentsline {section}{\numberline {2}\MakeUppercase []{Materiais e Métodos}}{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}PLANEJAMENTO EXPERIMENTAL}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Determinação dos Tempos de Acomodação do Sistema}{15}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Análise e Comparação das Histereses}{15}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Determinação do COP do Sistema}{16}{subsection.2.4}%
+\contentsline {section}{\numberline {3}RESULTADOS E DISCUSSÕES}{18}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Perturbação pela Velocidade do Ventilador}{18}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Perturbação pela Frequência de Rotação do Compressor}{21}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Análise da Histerese}{23}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Análise do COP}{25}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Parâmetros de Controle}{25}{subsection.3.5}%
+\contentsline {section}{\numberline {4}CONCLUSÃO}{27}{section.4}%
+\contentsline {section}{REFERÊNCIAS}{28}{section.4}%
