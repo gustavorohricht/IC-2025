@@ -553,6 +553,64 @@
       \verb 10.26678/ABCM.COBEM2023.COB2023-1460
       \endverb
     \endentry
+    \entry{MASCHE2021302}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0cee4054f8d45ed74a1558a70823301b}{%
+           family={Masche},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f49b677bd50e2fb8713c2be48575d38}{%
+           family={Ianniciello},
+           familyi={I\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c381e3bc0610a7c4cba66d4f1760ce0}{%
+           family={Tušek},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=059278be48fd56271519de87dfc5a103}{%
+           family={Engelbrecht},
+           familyi={E\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd207d39a5735be635ac84546979fc2a}
+      \strng{fullhash}{2f750e9c6bfe8d431aed767e3ef319a8}
+      \strng{fullhashraw}{2f750e9c6bfe8d431aed767e3ef319a8}
+      \strng{bibnamehash}{fd207d39a5735be635ac84546979fc2a}
+      \strng{authorbibnamehash}{fd207d39a5735be635ac84546979fc2a}
+      \strng{authornamehash}{fd207d39a5735be635ac84546979fc2a}
+      \strng{authorfullhash}{2f750e9c6bfe8d431aed767e3ef319a8}
+      \strng{authorfullhashraw}{2f750e9c6bfe8d431aed767e3ef319a8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0140-7007}
+      \field{journaltitle}{International Journal of Refrigeration}
+      \field{title}{Impact of hysteresis on caloric cooling performance}
+      \field{volume}{121}
+      \field{year}{2021}
+      \field{pages}{302\bibrangedash 312}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ijrefrig.2020.10.012
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0140700720304229
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0140700720304229
+      \endverb
+    \endentry
     \entry{ministerio2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=53735be65b63dc0d6448089f7c072e34}{%
