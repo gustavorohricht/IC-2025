@@ -1,9 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.19)  24 JUN 2025 23:52
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.19)  27 JUN 2025 19:05
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**"c:/Users/gusta/Desktop/IC 2025/Trabalho de IC/IC 2025/main.tex"
+(c:/Users/gusta/Desktop/IC 2025/Trabalho de IC/IC 2025/main.tex
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
 (C:\Users\gusta\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -1151,6 +1152,11 @@ File: FigurasdoTexto/painelMudançadeVelocidadeVentilador.jpeg Graphic file (typ
 e bmp)
 <FigurasdoTexto/painelMudançadeVelocidadeVentilador.jpeg>
 
+Overfull \hbox (1.59268pt too wide) in paragraph at lines 91--91
+|[]\TU/Arial(0)/b/n/14.4 DETERMINAÇÃO DOS TEMPOS DE ACOMODAÇÃO DO SISTEMA| 
+ []
+
+
 
 [15]
 File: FigurasdoTexto/Representação visual da histerese.png Graphic file (type b
@@ -1187,6 +1193,11 @@ pe bmp)
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (14.92393pt too wide) in paragraph at lines 64--64
+|[]\TU/Arial(0)/b/n/14.4 PERTURBAÇÃO PELA FREQUÊNCIA DE ROTAÇÃO DO COMPRES-
+ []
 
 
 
@@ -1233,36 +1244,63 @@ ente de Performance (COP)
  []
 
 
-Overfull \hbox (9.07823pt too wide) in paragraph at lines 149--150
-[]\TU/Arial(0)/m/n/12 Conforme ([][][]Masche \TU/Arial(0)/m/it/12 et al.[][]\TU
-/Arial(0)/m/n/12 , [][]2021[][]), a influência da histerese no COP é muito mais
- dramática
+
+[27]
+File: FigurasdoTexto/Qe e W Perturbação Ventilador.png Graphic file (type bmp)
+<FigurasdoTexto/Qe e W Perturbação Ventilador.png>
+
+
+[28]
+File: FigurasdoTexto/COP Perturbação Ventilador.png Graphic file (type bmp)
+<FigurasdoTexto/COP Perturbação Ventilador.png>
+
+
+[29]
+File: FigurasdoTexto/Qe e W Perturbação Rot.png Graphic file (type bmp)
+<FigurasdoTexto/Qe e W Perturbação Rot.png>
+
+
+[30]
+File: FigurasdoTexto/COP Perturbação Rot.png Graphic file (type bmp)
+<FigurasdoTexto/COP Perturbação Rot.png>
+
+Overfull \hbox (5.5242pt too wide) in paragraph at lines 189--190
+[]\TU/Arial(0)/m/n/12 Conforme [][][]Masche \TU/Arial(0)/m/it/12 et al.[][] \TU
+/Arial(0)/m/n/12 ([][]2021[][]), a influência da histerese no COP é muito mais 
+dramática
  []
 
 
 
-[27]
+[31]
+File: FigurasdoTexto/Qe e W Histerese.png Graphic file (type bmp)
+<FigurasdoTexto/Qe e W Histerese.png>
+
+
+[32]
 File: FigurasdoTexto/COP Histerese.png Graphic file (type bmp)
 <FigurasdoTexto/COP Histerese.png>
 )
 
-[28]
+[33]
 \openout2 = `Sections/4-Conclusão.aux'.
 
  (Sections/4-Conclusão.tex)
 
-[29
+[34
 
 
 
 ]
 
-[30
+[35
 
 
 ]
 
-[31] (main.aux (AntesdoTexto/1-Capa.aux) (AntesdoTexto/2-Resumos.aux)
+[36]
+
+[37] (main.aux (AntesdoTexto/1-Capa.aux) (AntesdoTexto/2-Resumos.aux)
 (AntesdoTexto/3-Agradecimentos.aux) (AntesdoTexto/4-Listas e Sumário.aux)
 (Sections/1-Introdução.aux) (Sections/2-MateriaisMétodos.aux)
 (Sections/3-ResultadosDiscussão.aux) (Sections/4-Conclusão.aux))
@@ -1271,18 +1309,18 @@ LaTeX2e <2025-06-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 85662DC422C1A85FEB8D07C30559716C;4311.
+(rerunfilecheck)             Checksum: 65DD6A72832F477E0FD8310F8D8634CB;4165.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24429 strings out of 403341
- 479627 string characters out of 5463121
- 1442696 words of memory out of 5000000
- 52434 multiletter control sequences out of 15000+600000
+ 24494 strings out of 403341
+ 482478 string characters out of 5463121
+ 1445271 words of memory out of 5000000
+ 52492 multiletter control sequences out of 15000+600000
  631911 words of font info for 81 fonts, out of 8000000 for 9000
- 1356 hyphenation exceptions out of 8191
- 73i,16n,98p,1309b,5056s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1357 hyphenation exceptions out of 8191
+ 73i,16n,98p,1363b,5056s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (31 pages).
+Output written on main.pdf (37 pages).
