@@ -15,6 +15,7 @@
 \contentsline {subsubsection}{\numberline {3.4.1}Efeito da Variação da Vazão de Ar do Ventilador no COP}{27}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Efeito da Frequência de Rotação do Compressor no COP}{29}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}Efeito da Histerese no COP}{31}{subsubsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.5}\MakeUppercase []{Parâmetros de Controle}}{33}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.5}\MakeUppercase []{Parâmetros do Sistema de Primeira Ordem e Histerese Normalizada para Controle Adaptativo ou Não Adaptativo}}{33}{subsection.3.5}%
 \contentsline {section}{\numberline {4}CONCLUSÃO}{34}{section.4}%
-\contentsline {section}{REFERÊNCIAS}{35}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Verificar se é necessário incluir como o IC contribuiu pra minha formação}{34}{subsection.4.1}%
+\contentsline {section}{REFERÊNCIAS}{35}{subsection.4.1}%
