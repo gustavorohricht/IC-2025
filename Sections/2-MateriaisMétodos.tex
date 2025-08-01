@@ -90,6 +90,33 @@ A posição do ventilador pode ser alterada em um painel analógico que é simil
 
 \subsection{\MakeUppercase{Determinação dos Tempos de Acomodação do Sistema}}
 
+A determinação dos tempos de acomodação do sistema é importante para estudar o comportamento do sistema de refrigeração e, falar
+ de forma mais assertiva sobre a diferença de convergência entre os testes de subida e descida de rotação do compressor, além de ser um parâmetro importante para possíveis modelos matemáticos que venham a ser desenvolvidos, por exemplo, para encontrar funções de transferência do sistema. 
+
+Determinar estes valores não é uma tarefa trivial. Todavia, primeiro é preciso definir o conceito de tempo de acomodação. O tempo de acomodação conforme \textcite{ogataControle} é o tempo necessário para que a curva de resposta do sistema alcance valores de geralmente 2\% ou 5\% do valor final. Para este trabalho, será utilizado o valor de 2\% do valor final, ou seja, o tempo de acomodação será definido como o tempo necessário para que a curva de resposta do sistema atinja 98\% do valor final.
+
+Entretanto, como está sendo estudado um sistema real, é necessário levar em consideração principalmente o ruído dos dados experimentais. Caso este ruído não for levado em consideração o valor do tempo de acomodação será calculado de forma errônea. Além disso, o transiente do sistema não inicia imediatamente na coleta de dados, os dados iniciais estão relacionados ao estado inicial permanente do sistema, portanto, ele não deve ser considerado no cálculo do tempo de acomodação. 
+
+Assim, um algoritmo foi desenvolvido para calcular o tempo de acomodação do sistema. O algoritmo é o seguinte:
+
+\begin{enumerate}   
+    \item É calculado a média dos 10 primeiros valores do teste, estes valores serão utilizados como o valor inicial do sistema.
+    \item É calculado a média dos últimos 10 valores do teste, estes valores serão utilizados como o valor final do sistema.
+    \item Para filtrar os dados experimentais e diminuir o ruído, é aplicado um filtro de média móvel com janela de 10 amostras dos dados experimentais, suavizando assim a curva.
+    \item Para detectar o início do transiente, é definido que o seu início no momento em que o valor da curva de resposta do sistema é maior ou menor que 2\% do valor inicial do sistema. O tempo aferido nesta amostra é o momento zero do cálculo do tempo de acomodação.
+    \item O valor do tempo de acomodação do sistema será encontrado então a partir do último valor do teste, o tempo aferido na primeira amostra que for 2\% maior ou menor que o valor final do sistema (dependendo se a curva de resposta é crescente ou decrescente).
+    \item O tempo de acomodação é então calculado como a diferença entre o tempo da amostra final e o tempo da amostra inicial do transiente.
+\end{enumerate}
+
+Um bom exemplo de como o algoritmo funciona é apresentado na figura \ref{fig:exemplo de cálculo do tempo de acomodação}. É possível observar que, ao suavizar a curva, o algoritmo consegue detectar o início e fim do transiente e o tempo de acomodação do sistema, assim como os demais passos necessários para o cálculo de maneira coerente. Através do tempo de acomodação é possível também definir as constantes de tempo do sistema, para sistemas de primeira ordem, a constante de tempo é definida como o tempo de acomodação dividido por 4 \cite{ogataControle}. Isto será relevante já que boa parte das variáveis deste sistema como será visto posteriormente são, em boa aproximação, de primeira ordem.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{FigurasdoTexto/Exemplo tempo de acomodação.png}
+    \caption{Exemplo de Cálculo do Tempo de Acomodação}
+    \label{fig:exemplo de cálculo do tempo de acomodação}
+    {\footnotesize Fonte: O Autor (2025)}
+\end{figure}
 \subsection{\MakeUppercase{Análise e Comparação das Histereses}} \label{subsec:Método de Análise da Histerese}
 
 Antes de realizar as análises em si, é preciso definir uma forma de comparar a histerese de várias variáveis diferentes de forma única. A histerese é usualmente definida como a área entre as curvas de subida e descida,isto é, a diferença de caminho entre a ida e volta a um mesmo ponto. A fim de ser possível relacionar diferentes variáveis com variações distintas, a histerese será calculada da seguinte forma: é feito o cálculo da diferença entre a área das curvas de subida e descida da velocidade de rotação do compressor, então esta área é dividida pela multiplicação dos intervalos das variáveis nos eixos t e y a fim de normalizá-la; por fim, é aplicado o módulo neste número. De forma genérica pode-se escrever a fórmula utilizada para o cálculo da histerese normalizada $\text{H}_\text{norm}$ como:

@@ -684,6 +684,39 @@
       \verb https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2024
       \endverb
     \endentry
+    \entry{ogataControle}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72cb1e667ce543119df1b777c0db24de}{%
+           family={Ogata},
+           familyi={O\bibinitperiod},
+           given={Katsuhiko},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Prentice Hall}%
+      }
+      \strng{namehash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{fullhash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{fullhashraw}{72cb1e667ce543119df1b777c0db24de}
+      \strng{bibnamehash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{authorbibnamehash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{authornamehash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{authorfullhash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{authorfullhashraw}{72cb1e667ce543119df1b777c0db24de}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{title}{Engenharia de Controle Moderno}
+      \field{year}{2010}
+    \endentry
     \entry{phillippi2008basic}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5f7df4512b62f1e69f8f6fb7f6f865b0}{%
@@ -858,7 +891,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{1st}
+      \field{edition}{1}
       \field{title}{Industrial Refrigeration Handbook}
       \field{year}{1998}
     \endentry
