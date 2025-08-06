@@ -180,6 +180,52 @@
       \verb https://doi.org/10.1016/j.ijrefrig.2008.04.012
       \endverb
     \endentry
+    \entry{CONSTANTINO2022101048}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=348fb32483fdaf569a85e24947a0e28a}{%
+           family={Constantino},
+           familyi={C\bibinitperiod},
+           given={Matheus\bibnamedelima Coitinho},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c57bc0894f2c051c15c94b6be4609a9a}{%
+           family={Kanizawa},
+           familyi={K\bibinitperiod},
+           given={Fabio\bibnamedelima Toshio},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \strng{fullhash}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \strng{fullhashraw}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \strng{bibnamehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \strng{authorbibnamehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \strng{authornamehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \strng{authorfullhash}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \strng{authorfullhashraw}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2451-9049}
+      \field{journaltitle}{Thermal Science and Engineering Progress}
+      \field{title}{Evaluation of pressure drop effect on COP of single-stage vapor compression refrigeration cycles}
+      \field{volume}{28}
+      \field{year}{2022}
+      \field{pages}{101048}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.tsep.2021.101048
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2451904921002092
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2451904921002092
+      \endverb
+    \endentry
     \entry{dasilva2024}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -638,6 +684,39 @@
       \verb https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2024
       \endverb
     \endentry
+    \entry{ogataControle}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72cb1e667ce543119df1b777c0db24de}{%
+           family={Ogata},
+           familyi={O\bibinitperiod},
+           given={Katsuhiko},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Prentice Hall}%
+      }
+      \strng{namehash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{fullhash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{fullhashraw}{72cb1e667ce543119df1b777c0db24de}
+      \strng{bibnamehash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{authorbibnamehash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{authornamehash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{authorfullhash}{72cb1e667ce543119df1b777c0db24de}
+      \strng{authorfullhashraw}{72cb1e667ce543119df1b777c0db24de}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{title}{Engenharia de Controle Moderno}
+      \field{year}{2010}
+    \endentry
     \entry{phillippi2008basic}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5f7df4512b62f1e69f8f6fb7f6f865b0}{%
@@ -782,6 +861,39 @@
       \field{edition}{2}
       \field{title}{Refrigeration and Air Conditioning}
       \field{year}{1982}
+    \endentry
+    \entry{stoecker1998industrial}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=81cbc87b502713675f7420e93a570ee8}{%
+           family={Stoecker},
+           familyi={S\bibinitperiod},
+           given={Wilbert\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{81cbc87b502713675f7420e93a570ee8}
+      \strng{fullhash}{81cbc87b502713675f7420e93a570ee8}
+      \strng{fullhashraw}{81cbc87b502713675f7420e93a570ee8}
+      \strng{bibnamehash}{81cbc87b502713675f7420e93a570ee8}
+      \strng{authorbibnamehash}{81cbc87b502713675f7420e93a570ee8}
+      \strng{authornamehash}{81cbc87b502713675f7420e93a570ee8}
+      \strng{authorfullhash}{81cbc87b502713675f7420e93a570ee8}
+      \strng{authorfullhashraw}{81cbc87b502713675f7420e93a570ee8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Industrial Refrigeration Handbook}
+      \field{year}{1998}
     \endentry
   \enddatalist
 \endrefsection

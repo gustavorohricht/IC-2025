@@ -895,6 +895,58 @@
       \field{title}{Industrial Refrigeration Handbook}
       \field{year}{1998}
     \endentry
+    \entry{ZHANG2024112387}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=644707caacded71d5eccefda534508d3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yangming},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae9087073641a9751a7a85a7811d5ef9}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08de09c641d734034e96233fb3f29c16}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Biao},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d78d9f118cf4ab50783df878af0fadb4}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f78fe1aba329df0bb5f2b9191fa5e21}
+      \strng{fullhash}{747c25f189f3bc3b0baeeed19a44aac8}
+      \strng{fullhashraw}{747c25f189f3bc3b0baeeed19a44aac8}
+      \strng{bibnamehash}{7f78fe1aba329df0bb5f2b9191fa5e21}
+      \strng{authorbibnamehash}{7f78fe1aba329df0bb5f2b9191fa5e21}
+      \strng{authornamehash}{7f78fe1aba329df0bb5f2b9191fa5e21}
+      \strng{authorfullhash}{747c25f189f3bc3b0baeeed19a44aac8}
+      \strng{authorfullhashraw}{747c25f189f3bc3b0baeeed19a44aac8}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1568-4946}
+      \field{journaltitle}{Applied Soft Computing}
+      \field{title}{Robust control of uncertain asymmetric hysteretic nonlinear systems with adaptive neural network disturbance observer}
+      \field{volume}{167}
+      \field{year}{2024}
+      \field{pages}{112387}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.asoc.2024.112387
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
