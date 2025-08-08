@@ -3,22 +3,22 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces Representação dos Pontos de Instalação dos Transdutores}}{12}{figure.caption.4}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Inversor CFW-300 Utilizado para Alterar a Velocidade de Rotação do Compressor}}{14}{figure.caption.7}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Painel Utilizado para Alterar a Vazão de Ar do Ventilador do Evaporador}}{15}{figure.caption.8}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Exemplo de Cálculo do Tempo de Acomodação}}{17}{figure.caption.9}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Representação Visual do Algoritmo de Cálculo do Tempo de Acomodação}}{17}{figure.caption.9}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Representação Visual da Histerese Normalizada}}{18}{figure.caption.10}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Temperaturas de Descarga e Sucção do Transiente de P1 e P3}}{21}{figure.caption.12}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Vazão de Fluído Refrigerante Transiente de P1 e P3}}{22}{figure.caption.13}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Pressões de Sucção e Descarga P1 e P3}}{23}{figure.caption.14}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Pressão de Descarga e Sucção P2}}{24}{figure.caption.15}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Temperaturas de Sucção e Descarga P2}}{25}{figure.caption.16}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Vazão de Fluido Refrigerante Transiente de P1 e P3}}{22}{figure.caption.13}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Pressões de Descarga e Sucção P1 e P3}}{23}{figure.caption.14}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Pressões de Descarga e Sucção P2}}{24}{figure.caption.15}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Temperaturas de Descarga e Sucção P2}}{25}{figure.caption.16}%
 \contentsline {figure}{\numberline {13}{\ignorespaces Histereses Normalizadas das Principais Variáveis do Teste}}{26}{figure.caption.17}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Pressão de Sucção nas Perturbações P4 e P5}}{27}{figure.caption.18}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Temperatura de Sucção nas Perturbações P4 e P5}}{28}{figure.caption.19}%
 \contentsline {figure}{\numberline {16}{\ignorespaces Temperatura de Descarga nas Perturbações P4 e P5}}{29}{figure.caption.20}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Capacidade de Refrigeração nas Perturbações P1 e P3}}{30}{figure.caption.21}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Análise do COP nas Perturbações P1 e P3}}{31}{figure.caption.22}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Capacidade de Refrigeração e Potência de Consumo do Compressor nas Perturbações P1 e P3}}{30}{figure.caption.21}%
+\contentsline {figure}{\numberline {18}{\ignorespaces COP nas Perturbações P1 e P3}}{31}{figure.caption.22}%
 \contentsline {figure}{\numberline {19}{\ignorespaces Capacidade de Refrigeração e Potência de Consumo do Compressor na Perturbação P2}}{32}{figure.caption.23}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Análise do COP nas Perturbações P2}}{33}{figure.caption.24}%
+\contentsline {figure}{\numberline {20}{\ignorespaces COP na Perturbação P2}}{33}{figure.caption.24}%
 \contentsline {figure}{\numberline {21}{\ignorespaces Capacidade de Refrigeração e Potência de Consumo do Compressor nas Perturbações P4 e P5}}{34}{figure.caption.25}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Análise do COP e Histerese}}{35}{figure.caption.26}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Histerese no COP nas Perturbações P4 e P5}}{35}{figure.caption.26}%
 \contentsline {figure}{\numberline {23}{\ignorespaces Módulo da Diferença entre as Constantes de Tempo do Sistema nas Perturbações P4 e P5}}{36}{figure.caption.27}%
 \contentsline {figure}{\numberline {24}{\ignorespaces Histerese Normalizada e Módulo da Diferença entre as Constantes de Tempo do Sistema}}{37}{figure.caption.28}%
