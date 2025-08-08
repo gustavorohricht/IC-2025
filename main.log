@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.19)  8 AUG 2025 00:54
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.19)  8 AUG 2025 01:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1218,7 +1218,7 @@ pe bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (14.92393pt too wide) in paragraph at lines 64--64
+Overfull \hbox (14.92393pt too wide) in paragraph at lines 63--63
 |[]\TU/Arial(0)/b/n/14.4 PERTURBAÇÃO PELA FREQUÊNCIA DE ROTAÇÃO DO COMPRES-
  []
 
@@ -1257,7 +1257,7 @@ File: FigurasdoTexto/Temperatura de Sucção.png Graphic file (type bmp)
 File: FigurasdoTexto/Temperatura de Descarga.png Graphic file (type bmp)
 <FigurasdoTexto/Temperatura de Descarga.png>
 
-Overfull \hbox (3.32971pt too wide) in paragraph at lines 141--142
+Overfull \hbox (3.32971pt too wide) in paragraph at lines 140--141
 []\TU/Arial(0)/m/n/12 Nesta subseção, serão apresentadas as análises do Coefici
 ente de Performance (COP)
  []
@@ -1293,7 +1293,7 @@ File: FigurasdoTexto/Qe e W Histerese.png Graphic file (type bmp)
 File: FigurasdoTexto/COP Histerese.png Graphic file (type bmp)
 <FigurasdoTexto/COP Histerese.png>
 
-Overfull \hbox (0.51689pt too wide) in paragraph at lines 209--209
+Overfull \hbox (0.51689pt too wide) in paragraph at lines 208--208
 |[]\TU/Arial(0)/b/n/14.4 ESTUDO DA HISTERESE NORMALIZADA PARA CONTROLE NÃO
  []
 
