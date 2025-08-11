@@ -17,5 +17,5 @@
 \contentsline {subsubsection}{\numberline {3.4.3}Efeito da Histerese no COP}{34}{subsubsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.5}\MakeUppercase []{Estudo da Histerese Normalizada para Controle Não Adaptativo}}{36}{subsection.3.5}%
 \contentsline {section}{\numberline {4}CONCLUSÃO}{40}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Como o IC Contribuiu para a Minha Formação}{41}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}\MakeUppercase []{ Como o IC Contribuiu para a Minha Formação}}{41}{subsection.4.1}%
 \contentsline {section}{REFERÊNCIAS}{42}{subsection.4.1}%
