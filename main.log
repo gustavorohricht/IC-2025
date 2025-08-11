@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.19)  8 AUG 2025 01:39
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.19)  11 AUG 2025 00:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1082,8 +1082,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--20
 \openout2 = `"AntesdoTexto/4-Listas e Sumário.aux"'.
 
  (AntesdoTexto/4-Listas e Sumário.tex (main.lof
-Overfull \hbox (0.6161pt too wide) in paragraph at lines 24--24
- [][] [][]\TU/Arial(0)/m/n/12 24 Histerese Normalizada e Módulo da Diferença en
+Overfull \hbox (0.6161pt too wide) in paragraph at lines 25--25
+ [][] [][]\TU/Arial(0)/m/n/12 25 Histerese Normalizada e Módulo da Diferença en
 tre as Constantes de Tempo 
  []
 
@@ -1280,58 +1280,64 @@ File: FigurasdoTexto/Qe e W Perturbação Rot.png Graphic file (type bmp)
 
 
 [32]
+File: FigurasdoTexto/Zoom Capacidade de Refrigeração e Potência de Consumo.png 
+Graphic file (type bmp)
+<FigurasdoTexto/Zoom Capacidade de Refrigeração e Potência de Consumo.png>
+
+
+[33]
 File: FigurasdoTexto/COP Perturbação Rot.png Graphic file (type bmp)
 <FigurasdoTexto/COP Perturbação Rot.png>
 
 
-[33]
+[34]
 File: FigurasdoTexto/Qe e W Histerese.png Graphic file (type bmp)
 <FigurasdoTexto/Qe e W Histerese.png>
 
 
-[34]
+[35]
 File: FigurasdoTexto/COP Histerese.png Graphic file (type bmp)
 <FigurasdoTexto/COP Histerese.png>
 
-Overfull \hbox (0.51689pt too wide) in paragraph at lines 208--208
+Overfull \hbox (0.51689pt too wide) in paragraph at lines 218--218
 |[]\TU/Arial(0)/b/n/14.4 ESTUDO DA HISTERESE NORMALIZADA PARA CONTROLE NÃO
  []
 
 
 
-[35]
+[36]
 File: FigurasdoTexto/Constantes de Tempo.png Graphic file (type bmp)
 <FigurasdoTexto/Constantes de Tempo.png>
 
 
-[36]
+[37]
 File: FigurasdoTexto/HistNorm x Delta Tau.png Graphic file (type bmp)
 <FigurasdoTexto/HistNorm x Delta Tau.png>
 
 
-[37])
+[38])
 
-[38]
+[39]
 \openout2 = `Sections/4-Conclusão.aux'.
 
  (Sections/4-Conclusão.tex
 
-[39
+[40
 
 
 
 ])
 
-[40]
+[41]
 
-[41
+[42
 
 
 ]
 
-[42]
+[43]
 
-[43] (main.aux (AntesdoTexto/1-Capa.aux) (AntesdoTexto/2-Resumos.aux)
+[44] (main.aux (AntesdoTexto/1-Capa.aux) (AntesdoTexto/2-Resumos.aux)
 (AntesdoTexto/3-Agradecimentos.aux) (AntesdoTexto/4-Listas e Sumário.aux)
 (Sections/1-Introdução.aux) (Sections/2-MateriaisMétodos.aux)
 (Sections/3-ResultadosDiscussão.aux) (Sections/4-Conclusão.aux))
@@ -1346,12 +1352,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24547 strings out of 403341
- 484305 string characters out of 5463121
- 1445427 words of memory out of 5000000
- 52533 multiletter control sequences out of 15000+600000
+ 24557 strings out of 403341
+ 485046 string characters out of 5463121
+ 1444554 words of memory out of 5000000
+ 52542 multiletter control sequences out of 15000+600000
  631911 words of font info for 81 fonts, out of 8000000 for 9000
  1366 hyphenation exceptions out of 8191
  73i,16n,98p,1274b,5054s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (43 pages).
+Output written on main.pdf (44 pages).

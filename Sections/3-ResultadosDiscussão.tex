@@ -163,7 +163,7 @@ Portanto o COP também oscila, como pode ser visto na Figura \ref{fig:COP Pertur
 
 \subsubsection{Efeito da Frequência de Rotação do Compressor no COP}
 
-Nesta situação, ao aumentar a frequência de rotação do compressor, a capacidade de refrigeração do sistema aumenta, como pode ser vista na Figura \ref{fig:Capacidade de Resfriamento e Potência de Consumo do Compressor P2} para a perturbação P2. Isto ocorre devido à entalpia de saída e à diminuição da entalpia de entrada do ar.
+Nesta situação, ao aumentar a frequência de rotação do compressor, a capacidade de refrigeração do sistema aumenta, como pode ser vista na Figura \ref{fig:Capacidade de Resfriamento e Potência de Consumo do Compressor P2} para a perturbação P2. Isto ocorre devido à diminuição da entalpia de saída e o aumento da entalpia de entrada do ar.
 \newpage
 \begin{figure}[h]
     \centering
@@ -173,7 +173,17 @@ Nesta situação, ao aumentar a frequência de rotação do compressor, a capaci
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 
-No entanto, o oposto ocorre no COP, como pode ser visto na Figura \ref{fig:Análise do COP Rotação}, o COP diminui com o aumento da frequência de rotação do compressor. Este resultado é bem documentado na literatura, por exemplo \textcite{MASCHE2021302} explica que o COP diminui devido ao aumento da potência de consumo do compressor, aumentando mais do que a capacidade de refrigeração do sistema. Também pode estar atrelado às quedas de pressão do fluido refrigerante ao passar pelos trocadores de calor, como mencionado por \textcite{CONSTANTINO2022101048} o que pode levar à diminuição também da eficiência da compressão em rotações mais elevadas, como mencionado por \textcite{stoecker1998industrial}. Foi observada uma diminuição de 25\% no COP em P2, quando comparado ao estado estacionário.
+É importante ressaltar que o transiente da potência de consumo do compressor é, para efeitos práticos de análise, instantâneo, o que não acontece com a capacidade de refrigeração. Esta diferença entre os transientes da capacidade de refrigeração e da potência de consumo do compressor pode ser vista na Figura \ref{fig:zoom capapcidade de refrigeração e potência de consumo}. O transiente imediato da potência de consumo do compressor é o causador da variação abrupta do COP que pode ser observada nas Figuras \ref{fig:Análise do COP Rotação} e \ref{fig:Análise do COP Histerese} também. 
+\newpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{FigurasdoTexto/Zoom Capacidade de Refrigeração e Potência de Consumo.png}
+    \caption{Transiente da Capacidade de Refrigeração e Potência de Consumo do Compressor na Perturbação P2}
+    \label{fig:zoom capapcidade de refrigeração e potência de consumo}
+    {\footnotesize Fonte: O Autor (2025)}
+\end{figure} 
+
+Embora a capacidade de refrigeração do sistema aumente, o oposto ocorre no COP, como pode ser visto na Figura \ref{fig:Análise do COP Rotação}, o COP diminui com o aumento da frequência de rotação do compressor. Este resultado é bem documentado na literatura, por exemplo \textcite{MASCHE2021302} explica que o COP diminui devido ao aumento da potência de consumo do compressor, aumentando mais do que a capacidade de refrigeração do sistema. Também pode estar atrelado às quedas de pressão do fluido refrigerante ao passar pelos trocadores de calor, como mencionado por \textcite{CONSTANTINO2022101048} o que pode levar à diminuição também da eficiência da compressão em rotações mais elevadas, como mencionado por \textcite{stoecker1998industrial}. Foi observada uma diminuição de 25\% no COP em P2, quando comparado ao estado estacionário.
 \newpage
 \begin{figure}[h]
     \centering
