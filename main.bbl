@@ -323,6 +323,64 @@
       \verb https://refridynamics.ufsc.br/
       \endverb
     \endentry
+    \entry{ExperimentalThermalPerformance}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=134e81ecbefa29d4807d9183d692da73}{%
+           family={{da Silva}},
+           familyi={d\bibinitperiod},
+           given={Diogo\bibnamedelima Lôndero},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1a6d789a0292d5a12f858b76e84d8ee}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38e6f142abb5bc1be909c11ec35f05dd}{%
+           family={Juliani},
+           familyi={J\bibinitperiod},
+           given={Aline},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6be09998a8056375ea173792b0582b58}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Filipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cc222bbf65a27e989e54eb9fa718b7e}{%
+           family={Cordova},
+           familyi={C\bibinitperiod},
+           given={Guilherme},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Florianópolis}%
+      }
+      \strng{namehash}{e8927bee2d319f82ce4e203bb6c814fb}
+      \strng{fullhash}{89217ed1526bab25fdb101460b9cc510}
+      \strng{fullhashraw}{89217ed1526bab25fdb101460b9cc510}
+      \strng{bibnamehash}{e8927bee2d319f82ce4e203bb6c814fb}
+      \strng{authorbibnamehash}{e8927bee2d319f82ce4e203bb6c814fb}
+      \strng{authornamehash}{e8927bee2d319f82ce4e203bb6c814fb}
+      \strng{authorfullhash}{89217ed1526bab25fdb101460b9cc510}
+      \strng{authorfullhashraw}{89217ed1526bab25fdb101460b9cc510}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{COBEM}
+      \field{month}{01}
+      \field{title}{Experimental Thermal Performance Evaluation of an Automotive Air Conditioning System}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.26678/ABCM.COBEM2023.COB2023-1460
+      \endverb
+    \endentry
     \entry{EffectsOFRefrigeranteCompressorAirFlow}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=b42fcee38bafa3edb27a0d30e7fe8078}{%
@@ -449,7 +507,7 @@
       \field{title}{Impact of Vehicle Air-Conditioning on Fuel Economy, Tailpipe Emissions, and Electric Vehicle Range}
       \field{year}{2000}
     \endentry
-    \entry{juliani2017}{online}{}{}
+    \entry{juliani2017}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=38ef10e75f6475c0016700b8aec1f54b}{%
            family={Juliani},
@@ -473,6 +531,9 @@
       \list{location}{1}{%
         {Joinville, Brazil}%
       }
+      \list{publisher}{1}{%
+        {CONEMB}%
+      }
       \strng{namehash}{ae5e778a5737f648f3753be2642f92a3}
       \strng{fullhash}{ae5e778a5737f648f3753be2642f92a3}
       \strng{fullhashraw}{ae5e778a5737f648f3753be2642f92a3}
@@ -487,10 +548,9 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{III Congresso Nacional das Engenharias da Mobilidade}
+      \field{booktitle}{III Congresso Nacional das Engenharias da Mobilidade}
+      \field{title}{Estratégias de Controle para Sistemas de Condicionamento de Ar Automotivo}
       \field{year}{2017}
-      \field{pages}{8}
-      \range{pages}{1}
     \endentry
     \entry{junior2023}{thesis}{}{}
       \name{author}{1}{}{%
@@ -534,64 +594,6 @@
       \endverb
       \verb{url}
       \verb https://repositorio.ufsc.br/handle/123456789/245221
-      \endverb
-    \endentry
-    \entry{ExperimentalThermalPerformance}{inproceedings}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=8ad882b9fed82e5afe7fd2e9dd3cd32f}{%
-           family={Londero},
-           familyi={L\bibinitperiod},
-           given={Diogo\bibnamedelimb da\bibnamedelima Silva},
-           giveni={D\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b1a6d789a0292d5a12f858b76e84d8ee}{%
-           family={Oliveira},
-           familyi={O\bibinitperiod},
-           given={Igor},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=38e6f142abb5bc1be909c11ec35f05dd}{%
-           family={Juliani},
-           familyi={J\bibinitperiod},
-           given={Aline},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6be09998a8056375ea173792b0582b58}{%
-           family={Fischer},
-           familyi={F\bibinitperiod},
-           given={Filipe},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8cc222bbf65a27e989e54eb9fa718b7e}{%
-           family={Cordova},
-           familyi={C\bibinitperiod},
-           given={Guilherme},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Florianópolis}%
-      }
-      \strng{namehash}{9b14626a4a1a1a973c68c9a93c3e28c8}
-      \strng{fullhash}{8db785e588b48180330dfd1a648ed502}
-      \strng{fullhashraw}{8db785e588b48180330dfd1a648ed502}
-      \strng{bibnamehash}{9b14626a4a1a1a973c68c9a93c3e28c8}
-      \strng{authorbibnamehash}{9b14626a4a1a1a973c68c9a93c3e28c8}
-      \strng{authornamehash}{9b14626a4a1a1a973c68c9a93c3e28c8}
-      \strng{authorfullhash}{8db785e588b48180330dfd1a648ed502}
-      \strng{authorfullhashraw}{8db785e588b48180330dfd1a648ed502}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{COBEM}
-      \field{month}{01}
-      \field{title}{Experimental Thermal Performance Evaluation of an Automotive Air Conditioning System}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.26678/ABCM.COBEM2023.COB2023-1460
       \endverb
     \endentry
     \entry{MASCHE2021302}{article}{}{}
