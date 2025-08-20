@@ -75,12 +75,12 @@
            giveni={C\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{4f1c74d3af2ec00258209e2490c8006e}
+      \strng{namehash}{0f4ace867e4f68dbc51660cf5d31f432}
       \strng{fullhash}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{fullhashraw}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{bibnamehash}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{authorbibnamehash}{4f1c74d3af2ec00258209e2490c8006e}
-      \strng{authornamehash}{4f1c74d3af2ec00258209e2490c8006e}
+      \strng{authornamehash}{0f4ace867e4f68dbc51660cf5d31f432}
       \strng{authorfullhash}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{authorfullhashraw}{4f1c74d3af2ec00258209e2490c8006e}
       \field{sortinit}{C}
@@ -157,8 +157,8 @@
       \strng{namehash}{1a464bffc62a8c1176dec996749f296b}
       \strng{fullhash}{5ebf3b222f08e040fb75ae538dfb44bb}
       \strng{fullhashraw}{5ebf3b222f08e040fb75ae538dfb44bb}
-      \strng{bibnamehash}{1a464bffc62a8c1176dec996749f296b}
-      \strng{authorbibnamehash}{1a464bffc62a8c1176dec996749f296b}
+      \strng{bibnamehash}{5ebf3b222f08e040fb75ae538dfb44bb}
+      \strng{authorbibnamehash}{5ebf3b222f08e040fb75ae538dfb44bb}
       \strng{authornamehash}{1a464bffc62a8c1176dec996749f296b}
       \strng{authorfullhash}{5ebf3b222f08e040fb75ae538dfb44bb}
       \strng{authorfullhashraw}{5ebf3b222f08e040fb75ae538dfb44bb}
@@ -195,12 +195,12 @@
            giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \strng{namehash}{d3255495dc830d089717c9b6aa82fa42}
       \strng{fullhash}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{fullhashraw}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{bibnamehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{authorbibnamehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
-      \strng{authornamehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
+      \strng{authornamehash}{d3255495dc830d089717c9b6aa82fa42}
       \strng{authorfullhash}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{authorfullhashraw}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \field{sortinit}{C}
@@ -227,9 +227,7 @@
       \endverb
     \endentry
     \entry{dasilva2024}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{3}{}{%
+      \name{author}{4}{ul=2}{%
         {{un=0,uniquepart=base,hash=649e5faf908d115441bb2ffcaba90112}{%
            family={{Da Silva}},
            familyi={D\bibinitperiod},
@@ -248,15 +246,21 @@
            given={A.D.P.},
            giveni={A\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=f67b59a7e81c07615e4be2d096737057}{%
+           family={{De Cordova}},
+           familyi={D\bibinitperiod},
+           given={G.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{a30d6bb94f545e5daf215b53f7ab143f}
-      \strng{fullhash}{a30d6bb94f545e5daf215b53f7ab143f}
-      \strng{fullhashraw}{a30d6bb94f545e5daf215b53f7ab143f}
-      \strng{bibnamehash}{a30d6bb94f545e5daf215b53f7ab143f}
-      \strng{authorbibnamehash}{a30d6bb94f545e5daf215b53f7ab143f}
-      \strng{authornamehash}{a30d6bb94f545e5daf215b53f7ab143f}
-      \strng{authorfullhash}{a30d6bb94f545e5daf215b53f7ab143f}
-      \strng{authorfullhashraw}{a30d6bb94f545e5daf215b53f7ab143f}
+      \strng{namehash}{03dc014827d83e15eb913605d0f7b817}
+      \strng{fullhash}{2a73a8f6ec9c6f60c76301ae03299128}
+      \strng{fullhashraw}{2a73a8f6ec9c6f60c76301ae03299128}
+      \strng{bibnamehash}{2a73a8f6ec9c6f60c76301ae03299128}
+      \strng{authorbibnamehash}{2a73a8f6ec9c6f60c76301ae03299128}
+      \strng{authornamehash}{03dc014827d83e15eb913605d0f7b817}
+      \strng{authorfullhash}{2a73a8f6ec9c6f60c76301ae03299128}
+      \strng{authorfullhashraw}{2a73a8f6ec9c6f60c76301ae03299128}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -278,7 +282,7 @@
       \endverb
     \endentry
     \entry{dasilva2016}{inproceedings}{}{}
-      \name{author}{2}{}{%
+      \name{author}{2}{ul=2}{%
         {{un=0,uniquepart=base,hash=649e5faf908d115441bb2ffcaba90112}{%
            family={{Da Silva}},
            familyi={D\bibinitperiod},
@@ -362,8 +366,8 @@
       \strng{namehash}{e8927bee2d319f82ce4e203bb6c814fb}
       \strng{fullhash}{89217ed1526bab25fdb101460b9cc510}
       \strng{fullhashraw}{89217ed1526bab25fdb101460b9cc510}
-      \strng{bibnamehash}{e8927bee2d319f82ce4e203bb6c814fb}
-      \strng{authorbibnamehash}{e8927bee2d319f82ce4e203bb6c814fb}
+      \strng{bibnamehash}{89217ed1526bab25fdb101460b9cc510}
+      \strng{authorbibnamehash}{89217ed1526bab25fdb101460b9cc510}
       \strng{authornamehash}{e8927bee2d319f82ce4e203bb6c814fb}
       \strng{authorfullhash}{89217ed1526bab25fdb101460b9cc510}
       \strng{authorfullhashraw}{89217ed1526bab25fdb101460b9cc510}
@@ -402,12 +406,12 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
+      \strng{namehash}{38ee735f2371fa8a5528a2298389c710}
       \strng{fullhash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \strng{fullhashraw}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \strng{bibnamehash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \strng{authorbibnamehash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
-      \strng{authornamehash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
+      \strng{authornamehash}{38ee735f2371fa8a5528a2298389c710}
       \strng{authorfullhash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \strng{authorfullhashraw}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \field{sortinit}{D}
@@ -489,12 +493,12 @@
       \list{publisher}{1}{%
         {National Renewable Energy Laboratory (NREL)}%
       }
-      \strng{namehash}{05c710d9c47e47c63f3dea04d45a3da3}
+      \strng{namehash}{6bc0dc7d5c366f9b246907f52223335c}
       \strng{fullhash}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{fullhashraw}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{bibnamehash}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{authorbibnamehash}{05c710d9c47e47c63f3dea04d45a3da3}
-      \strng{authornamehash}{05c710d9c47e47c63f3dea04d45a3da3}
+      \strng{authornamehash}{6bc0dc7d5c366f9b246907f52223335c}
       \strng{authorfullhash}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{authorfullhashraw}{05c710d9c47e47c63f3dea04d45a3da3}
       \field{sortinit}{F}
@@ -534,12 +538,12 @@
       \list{publisher}{1}{%
         {CONEMB}%
       }
-      \strng{namehash}{ae5e778a5737f648f3753be2642f92a3}
+      \strng{namehash}{be85216d816e869a0f1c717ac094164c}
       \strng{fullhash}{ae5e778a5737f648f3753be2642f92a3}
       \strng{fullhashraw}{ae5e778a5737f648f3753be2642f92a3}
       \strng{bibnamehash}{ae5e778a5737f648f3753be2642f92a3}
       \strng{authorbibnamehash}{ae5e778a5737f648f3753be2642f92a3}
-      \strng{authornamehash}{ae5e778a5737f648f3753be2642f92a3}
+      \strng{authornamehash}{be85216d816e869a0f1c717ac094164c}
       \strng{authorfullhash}{ae5e778a5737f648f3753be2642f92a3}
       \strng{authorfullhashraw}{ae5e778a5737f648f3753be2642f92a3}
       \field{sortinit}{J}
@@ -626,8 +630,8 @@
       \strng{namehash}{fd207d39a5735be635ac84546979fc2a}
       \strng{fullhash}{2f750e9c6bfe8d431aed767e3ef319a8}
       \strng{fullhashraw}{2f750e9c6bfe8d431aed767e3ef319a8}
-      \strng{bibnamehash}{fd207d39a5735be635ac84546979fc2a}
-      \strng{authorbibnamehash}{fd207d39a5735be635ac84546979fc2a}
+      \strng{bibnamehash}{2f750e9c6bfe8d431aed767e3ef319a8}
+      \strng{authorbibnamehash}{2f750e9c6bfe8d431aed767e3ef319a8}
       \strng{authornamehash}{fd207d39a5735be635ac84546979fc2a}
       \strng{authorfullhash}{2f750e9c6bfe8d431aed767e3ef319a8}
       \strng{authorfullhashraw}{2f750e9c6bfe8d431aed767e3ef319a8}
@@ -814,10 +818,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Laboratório de Refrigeração Veicular}
-      \field{urlday}{20}
-      \field{urlmonth}{10}
-      \field{urlyear}{2024}
-      \field{year}{2023}
+      \field{urlday}{19}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://refridynamics.ufsc.br/
@@ -827,7 +831,7 @@
       \endverb
     \endentry
     \entry{StoekerRefrigeration}{book}{}{}
-      \name{author}{2}{}{%
+      \name{author}{2}{ul=2}{%
         {{un=0,uniquepart=base,hash=fe1cf063d883fbce1b312ce2c7c9e439}{%
            family={Stoecker},
            familyi={S\bibinitperiod},
@@ -928,8 +932,8 @@
       \strng{namehash}{7f78fe1aba329df0bb5f2b9191fa5e21}
       \strng{fullhash}{747c25f189f3bc3b0baeeed19a44aac8}
       \strng{fullhashraw}{747c25f189f3bc3b0baeeed19a44aac8}
-      \strng{bibnamehash}{7f78fe1aba329df0bb5f2b9191fa5e21}
-      \strng{authorbibnamehash}{7f78fe1aba329df0bb5f2b9191fa5e21}
+      \strng{bibnamehash}{747c25f189f3bc3b0baeeed19a44aac8}
+      \strng{authorbibnamehash}{747c25f189f3bc3b0baeeed19a44aac8}
       \strng{authornamehash}{7f78fe1aba329df0bb5f2b9191fa5e21}
       \strng{authorfullhash}{747c25f189f3bc3b0baeeed19a44aac8}
       \strng{authorfullhashraw}{747c25f189f3bc3b0baeeed19a44aac8}

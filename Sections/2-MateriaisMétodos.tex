@@ -28,45 +28,45 @@ Para a coleta de dados, foram instalados transdutores em pontos específicos no 
 \newpage
 \subsection{PLANEJAMENTO EXPERIMENTAL}
 
-O plano de teste foi desenvolvido com o objetivo de validar os dados obtidos pelo sistema de aquisição. Para a realização da fase experimental, foram elaborados dois roteiros para duas análises distintas: A primeira, que pode ser encontrada na Tabela \ref{tab:pertubaçõesTransiente}, tem o intuito único de analisar como diferentes perturbações causadas ao sistema afetam seu comportamento transiente. Os testes serão realizados alterando dois principais parâmetros: a frequência de rotação do compressor e a posição de velocidade do ventilador do evaporador.
+O plano de teste foi desenvolvido com o objetivo de validar os dados obtidos pelo sistema de aquisição. Para a realização da fase experimental, foram elaborados dois roteiros para duas análises distintas: A primeira, que pode ser encontrada na Tabela \ref{tab:pertubaçõesTransiente}, tem o intuito único de analisar como diferentes perturbações causadas ao sistema afetam seu comportamento transiente. Os testes serão realizados alterando dois principais parâmetros: a  rotação do compressor e a posição de velocidade do ventilador do evaporador.
 
 \begin{table}[htb]
     \centering
     \begin{tabular}{|c|c|c|}
         \hline
-        \textbf{Perturbação} & \makecell{\textbf{Frequência de Rotação do} \\ \textbf{Compressor Esperada [RPM]}} & \textbf{Posição Ventilador} \\
+        \textbf{Perturbação} & \makecell{\textbf{ Rotação do} \\ \textbf{Compressor Esperada [RPM]}} & \textbf{Posição Ventilador} \\
         \hline
         P1 & 500 & 1 $\rightarrow$ 4  \\
         P2 & 500 $\rightarrow$ 890 & 4  \\
         P3 & 890 & 4 $\rightarrow$ 1  \\
         \hline
     \end{tabular}
-    \caption{Perturbações Geradas no Sistema de Refrigeração para Análise do Transiente}
+    \caption{Perturbações Geradas no Sistema de Condicionamento de Ar para Análise do Transiente}
     \vspace{5pt} 
 {\footnotesize Fonte: O Autor (2025) }
     \label{tab:pertubaçõesTransiente}
 \end{table}
 
-Na segunda análise, o intuito principal muda. Pretende-se gerar uma perturbação ao sistema, esperar que ele entre em estado permanente e, então, voltar ao seu estado inicial, observando assim se existe histerese no sistema de refrigeração e, posteriormente, avaliando seu impacto. A Tabela \ref{tab:pertubaçõesHisterese} então mostra as perturbações causadas no sistema para a segunda parte deste trabalho. Apenas a frequência de rotação foi alterada, aumentando-a e depois voltando ao ponto original, mantendo a posição do ventilador fixa.
+Na segunda análise, o intuito principal muda. Pretende-se gerar uma perturbação ao sistema, esperar que ele entre em estado permanente e, então, voltar ao seu estado inicial, observando assim se existe histerese no sistema de condicionamento de ar e, posteriormente, avaliando seu impacto. A Tabela \ref{tab:pertubaçõesHisterese} então mostra as perturbações causadas no sistema para a segunda parte deste trabalho. Apenas a rotação foi alterada, aumentando-a e depois voltando ao ponto original, mantendo a posição do ventilador fixa.
 \\
 \begin{table}[h]
     \centering
     \begin{tabular}{|c|c|c|}
         \hline
-        \textbf{Perturbação} & \makecell{\textbf{Frequência de Rotação do} \\ \textbf{Compressor Esperada [RPM]}} & \textbf{Posição Ventilador} \\
+        \textbf{Perturbação} & \makecell{\textbf{Rotação do} \\ \textbf{Compressor Esperada [RPM]}} & \textbf{Posição Ventilador} \\
         \hline
         P4 & 890 $\rightarrow$ 1074 & 4  \\
         P5 & 1074 $\rightarrow$ 890 & 4  \\
         \hline
     \end{tabular}
-    \caption{Perturbações Geradas no Sistema de Refrigeração para Análise da Histerese}
+    \caption{Perturbações Geradas no Sistema de Condicionamento de Ar para Análise da Histerese}
     
     \vspace{5pt} 
     {\footnotesize Fonte: O Autor (2025)}
     \label{tab:pertubaçõesHisterese}
 \end{table}
 
-Para alterar a frequência de rotação do compressor, o laboratório \textcite{reve2023} tem à sua disposição um inversor CFW-300 da WEG conforme a Figura \ref{fig:inversor CFW-300}. O inversor controla a amplitude e frequência do sinal (em Hertz) de tensão alternada que chega até o motor trifásico, que é acoplado ao compressor através de uma embreagem eletromagnética. Este sinal de tensão com frequência diferente da rede elétrica é, então, responsável por controlar a velocidade de rotação do motor e, por consequência, do compressor. A variação da frequência pode ser facilmente alterada nos parâmetros do inversor e, com a ajuda de uma tabela experimental do laboratório, é possível saber a correspondência da frequência de rotação em Hertz do sinal gerado pela rotação do compressor em RPM.
+Para alterar a rotação do compressor, o laboratório \textcite{reve2023} tem à sua disposição um inversor CFW-300 da WEG conforme a Figura \ref{fig:inversor CFW-300}. O inversor controla a amplitude e frequência do sinal (em Hertz) de tensão alternada que chega até o motor trifásico, que é acoplado ao compressor através de uma embreagem eletromagnética. Este sinal de tensão com frequência diferente da rede elétrica é, então, responsável por controlar a velocidade de rotação do motor e, por consequência, do compressor. A variação da frequência pode ser facilmente alterada nos parâmetros do inversor e, com a ajuda de uma tabela experimental do laboratório, é possível saber a correspondência da rotação em Hertz do sinal gerado pela rotação do compressor em RPM.
 
 \begin{figure}[h]
     \centering
@@ -90,7 +90,7 @@ A posição do ventilador pode ser alterada em um painel analógico que é simil
 
 \subsection{\MakeUppercase{Determinação dos Tempos de Acomodação do Sistema}} \label{subsec:Tempo de Acomodação do Sistema}
 
-A determinação dos tempos de acomodação do sistema é importante para estudar o comportamento do sistema de refrigeração e, falar
+A determinação dos tempos de acomodação do sistema é importante para estudar o comportamento do sistema de condicionamento de ar e, falar
  de forma mais assertiva sobre a diferença de convergência entre os testes de subida e descida de rotação do compressor, além de ser um parâmetro importante para possíveis modelos matemáticos que venham a ser desenvolvidos, por exemplo, para encontrar funções de transferência do sistema. 
 
 Determinar estes valores não é uma tarefa trivial. Todavia, primeiro é preciso definir o conceito de tempo de acomodação. O tempo de acomodação, conforme \textcite{ogataControle} é o tempo necessário para que a curva de resposta do sistema alcance valores de, geralmente, 2\% ou 5\% do valor final. Para este trabalho, será utilizado o valor de 2\% do valor final, ou seja, o tempo de acomodação será definido como o tempo necessário para que a curva de resposta do sistema atinja 98\% do valor final.
@@ -126,11 +126,11 @@ Antes de realizar as análises em si, é preciso definir uma forma de comparar a
     \label{eq:histerese normalizada}
 \end{equation}
 \\
-Em que t representa o tempo do teste, e as funções genéricas $f$ podem representar: temperatura, pressão ou vazão de fluido refrigerante. No entanto, como estas funções de ida e da volta na equação \ref{eq:histerese normalizada} são desconhecidas, dada a natureza do estudo experimental, estas integrais são calculadas de forma numérica utilizando o método numérico de 1/3 de Simpson composto \cite{ChapraNumerico}. Uma representação visual do que a equação \ref{eq:histerese normalizada} representa é apresentada na Figura \ref{fig:representação visual da histerese normalizada}, as funções $f_{subida}(t)$ e $f_{descida}(t)$ são representadas pelas curvas não tracejadas e o retângulo tracejado representa a área $\Delta y \Delta t$. Ao encontrar a área entre as duas curvas e dividi-la pela área do retângulo em que elas estão inscritas, encontra-se a porcentagem de histerese de determinada variável.
+Em que t representa o tempo do teste, e as funções genéricas $f$ podem representar: temperatura, pressão ou vazão de fluido refrigerante. No entanto, como estas funções de ida e da volta na equação \ref{eq:histerese normalizada} são desconhecidas, dada a natureza do estudo experimental, estas integrais são calculadas de forma numérica utilizando o método numérico de 1/3 de Simpson composto \cite{ChapraNumerico}. Uma representação visual do que a equação \ref{eq:histerese normalizada} representa é apresentada na Figura \ref{fig:representação visual da histerese normalizada}, as funções $f_{subida}(t)$ e $f_{descida}(t)$ são representadas pelas curvas contínuas e o retângulo tracejado representa a área $\Delta y \Delta t$. Ao encontrar a área entre as duas curvas e dividi-la pela área do retângulo em que elas estão inscritas, encontra-se a porcentagem de histerese de determinada variável, o que facilita a comparação entre as diferentes condições operacionais analisadas.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\linewidth]{FigurasdoTexto/Representação visual da histerese.png}
+    \includegraphics[width=0.75\linewidth]{FigurasdoTexto/image.png}
     \caption{Representação Visual da Histerese Normalizada}
     \label{fig:representação visual da histerese normalizada}
     {\footnotesize Fonte: O Autor (2025)}
@@ -146,10 +146,10 @@ O COP segue alguns dos métodos e dados experimentais já utilizados e existente
     \label{eq:COP}
 \end{equation}
 
-Em que $\dot W$ é o consumo de potência do compressor e $ \dot Q_e$ é a capacidade de refrigeração do evaporador dada por:
+Em que $\dot W$ é a potência consumida pelo compressor e $ \dot Q_e$ é a capacidade de refrigeração do evaporador dada por:
 
 \begin{equation}
     \dot Q_e = \dot m_{ar}(h_{ar,entrada} - h_{ar,saida})
 \end{equation}
 
-Em que $\dot m_{ar}$ é a taxa de transferência de massa de ar e $h_{ar}$ é a entalpia do ar úmido. O valor de $\dot m_{ar}$ será definido como 0,058 kg/s, dados experimentais provenientes do artigo de \textcite{ExperimentalThermalPerformance}. Os dados de entalpia são determinados utilizando o software EES, para o cálculo das entalpias de entrada, os dados experimentais da temperatura e umidade relativa de entrada do evaporador foram utilizados, assumindo pressão constante igual a uma atmosfera. Para as entalpias de saída, foi também assumida uma pressão constante de uma atmosfera e utilizado os dados de temperatura e umidade relativa de saída do evaporador. 
+Em que $\dot m_{ar}$ é a vazão mássica de ar e $h_{ar}$ é a entalpia do ar úmido. O valor de $\dot m_{ar}$ foi medido como 0,058 kg/s, dados experimentais provenientes do artigo de \textcite{ExperimentalThermalPerformance}. Os dados de entalpia são determinados utilizando o software EES, para o cálculo das entalpias de entrada, os dados experimentais da temperatura e umidade relativa de entrada do evaporador foram utilizados, assumindo pressão constante igual a uma atmosfera. Para as entalpias de saída, foi também assumida uma pressão constante de uma atmosfera e utilizado os dados de temperatura e umidade relativa de saída do evaporador. 
