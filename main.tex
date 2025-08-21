@@ -1,6 +1,5 @@
 % !TEX program = xelatex
-% !BIB program = biber
-% !TEX options = -synctex=1 -interaction=nonstopmode -file-line-error
+
 
 \documentclass[12pt]{article}
 \usepackage[left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}% //margens conforme a abnt se precisar
@@ -11,6 +10,9 @@
 \usepackage{hyperref}
 \usepackage{titlecaps}
 \usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
 \usepackage{tocloft}  % For customizing ToC
 \usepackage{textcomp}
  \usepackage{gensymb}
@@ -53,8 +55,10 @@
 \usepackage[
 backend=biber,
 style=abnt,
-maxcitenames=1,
+maxcitenames=3,
 maxbibnames=99,
+uniquelist=false,
+giveninits=true,
 sorting=nyt,
 language=brazilian,
 repeatfields=true

@@ -4,18 +4,18 @@
 \contentsline {subsubsection}{\numberline {1.1.2}Objetivos Específicos}{10}{subsubsection.1.1.2}%
 \contentsline {section}{\numberline {2}\MakeUppercase []{Materiais e Métodos}}{11}{section.2}%
 \contentsline {subsection}{\numberline {2.1}PLANEJAMENTO EXPERIMENTAL}{13}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}\MakeUppercase []{Determinação dos Tempos de Acomodação do Sistema}}{15}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}\MakeUppercase []{Análise e Comparação das Histereses}}{17}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}\MakeUppercase []{Determinação do COP do Sistema}}{18}{subsection.2.4}%
-\contentsline {section}{\numberline {3}RESULTADOS E DISCUSSÕES}{20}{section.3}%
-\contentsline {subsection}{\numberline {3.1}\MakeUppercase []{Perturbação pela Variação da Vazão de Ar do Ventilador}}{20}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}\MakeUppercase []{Perturbação pela Frequência de Rotação do Compressor}}{23}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}\MakeUppercase []{Análise da Histerese}}{25}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}\MakeUppercase []{Análise do COP}}{29}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Efeito da Variação da Vazão de Ar do Ventilador no COP}{29}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Efeito da Frequência de Rotação do Compressor no COP}{31}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Efeito da Histerese no COP}{34}{subsubsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.5}\MakeUppercase []{Estudo da Histerese Normalizada para Controle Não Adaptativo}}{36}{subsection.3.5}%
-\contentsline {section}{\numberline {4}CONCLUSÃO}{40}{section.4}%
-\contentsline {subsection}{\numberline {4.1}\MakeUppercase []{ Como o IC Contribuiu para a Minha Formação}}{41}{subsection.4.1}%
-\contentsline {section}{REFERÊNCIAS}{42}{subsection.4.1}%
+\contentsline {subsection}{\numberline {2.2}\MakeUppercase []{Determinação dos Tempos de Acomodação do Sistema}}{16}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}\MakeUppercase []{Análise e Comparação das Histereses}}{18}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}\MakeUppercase []{Determinação do COP do Sistema}}{20}{subsection.2.4}%
+\contentsline {section}{\numberline {3}RESULTADOS E DISCUSSÕES}{21}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\MakeUppercase []{Perturbação pela Variação da Vazão de Ar do Ventilador}}{22}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}\MakeUppercase []{Perturbação pela Frequência de Rotação do Compressor}}{25}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}\MakeUppercase []{Análise da Histerese}}{27}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}\MakeUppercase []{Análise do COP}}{31}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Efeito da Variação da Vazão de Ar do Ventilador no COP}{31}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Efeito da Frequência de Rotação do Compressor no COP}{33}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Efeito da Histerese no COP}{36}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.5}\MakeUppercase []{Estudo da Histerese Normalizada para Controle Não Adaptativo}}{38}{subsection.3.5}%
+\contentsline {section}{\numberline {4}CONCLUSÃO}{42}{section.4}%
+\contentsline {subsection}{\numberline {4.1}\MakeUppercase []{ Como o IC Contribuiu para a Minha Formação}}{43}{subsection.4.1}%
+\contentsline {section}{REFERÊNCIAS}{44}{subsection.4.1}%

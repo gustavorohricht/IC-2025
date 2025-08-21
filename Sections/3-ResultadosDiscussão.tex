@@ -20,10 +20,31 @@ Nesta seção será discutido, da melhor maneira possível, os resultados obtido
 {\footnotesize Fonte: O Autor (2025) }
     \label{tab:Rotações Medidas}
 \end{table}
-
+\newpage
 \subsection{\MakeUppercase{Perturbação pela Variação da Vazão de Ar do Ventilador}} \label{subsec:PertubaçãoVelVentilador}
 
-A primeira observação, que talvez seja a mais específica entre todas, não observada de maneira tão clara, por exemplo, nas perturbações de rotação, são oscilações análogas a oscilações senoidais decrescentes até que o sistema estabilize em um determinado valor de temperatura ou pressão. Por exemplo, a Figura \ref{fig:TempSuccaoPertubacaoVentilador} mostra o comportamento mencionado na temperatura de sucção e descarga do compressor nas perturbações P1 e P3.
+Antes de iniciar a análise dos resultados experimentais, é importante relembrar sobre as perturbações que serão analisadas nesta subseção. As perturbações P1 e P3 são causadas pela variação da vazão de ar do ventilador do evaporador, sendo que em P1 a vazão de ar é aumentada e em P3 a vazão de ar é diminuída. Já as perturbações P2, P4 e P5 são causadas pela variação da rotação do compressor, sendo que em P2 e P4 a rotação é aumentada e em P5 a rotação é diminuída. A Tabela \ref{tab:posiçõesVentilador} relembra as perturbações causadas no sistema apresentadas na subseção \ref{subsec:PlanejamentoExperimental}.
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Perturbação} & \makecell{\textbf{Rotação do} \\ \textbf{Compressor Esperada [RPM]}} & \textbf{Posição Ventilador}\\      
+        \hline
+        P1 & 500 & 1 $\rightarrow$ 4  \\
+        P2 & 500 $\rightarrow$ 890 & 4  \\
+        P3 & 890 & 4 $\rightarrow$ 1  \\
+        P4 & 890 $\rightarrow$ 1074 & 4  \\
+        P5 & 1074 $\rightarrow$ 890 & 4  \\
+        \hline
+    \end{tabular}
+    \caption{Perturbações Geradas para Análise do Sistema}
+    \vspace{5pt} 
+{\footnotesize Fonte: O Autor (2025)}
+    \label{tab:posiçõesVentilador}
+\end{table}
+
+A primeira observação, que talvez seja a mais específica entre todas, não observada de maneira tão clara, por exemplo, nas perturbações de rotação, são oscilações análogas a oscilações senoidais decrescentes até que o sistema estabilize em um determinado valor de temperatura ou pressão. Por exemplo, a Figura \ref{fig:TempSuccaoPertubacaoVentilador} mostra o comportamento mencionado na temperatura de sucção e descarga do compressor nas perturbações P1 e P3 apresentadas na Tabela \ref{tab:posiçõesVentilador}. As regiões de sucção e descarga então relacionadas com a Figura \ref{fig:instalação transdutores}, onde a região de sucção é a região do transdutor de temperatura 1 e a região de descarga é a região do transdutor de temperatura 2.
 \newpage
 \begin{figure}[h]
     \centering
@@ -46,7 +67,7 @@ O pico mínimo de temperatura ocorre logo depois, provavelmente,devido a um evap
 \end{figure}
 %Explicações- as temperaturas atingem um pico máximo devido a um evaporador seco (stoeker) causando aumento de temperatura e pressão e um pico mínimo de fluido vazão de fluido refrigerante. Já o mínimo ocorre devido a um evaporador cheio (inundado), faz sentido porque há um pico de vazão de fluido refrigerante .
 
-No entanto, a temperatura após isso sobe, e oscila até estabilizar. Esta subida de temperatura possivelmente tem relação com que, embora o coeficiente de transferência de calor tenha aumentado,há mais vazão de ar do que o que pode ser resfriado de maneira mais eficaz pelo sistema, então as temperaturas sobem, e fazem isso oscilando, procurando a posição de equilíbrio entre a pressão de sucção e o fluxo da taxa de massa \cite{StoekerRefrigeration}.  
+No entanto, as temperaturas de sucção e descarga após isso sobem aproximadamente 5 °C  e 1 °C respectivamente em relação à temperatura mínima atingida, e oscilam até estabilizar. Esta subida de temperatura possivelmente tem relação com que, embora o coeficiente de transferência de calor tenha aumentado,há mais vazão de ar do que o que pode ser resfriado de maneira mais eficaz pelo sistema, então as temperaturas sobem, e fazem isso oscilando, procurando a posição de equilíbrio entre a pressão de sucção e o fluxo da taxa de massa \cite{StoekerRefrigeration}.  
 
 No caso de P3 não são observados extremos de temperatura, provavelmente pois, como a velocidade e vazão de ar neste caso são reduzidos, diminuí-los é uma alteração menos brusca no sistema, ela apenas decresce oscilando, devido possivelmente à mesma razão que P1 cresce, isto é, com menos vazão de ar é mais fácil resfriá-lo e oscila procurando o equilíbrio.
 
@@ -63,7 +84,7 @@ As pressões de descarga e sucção ambas crescem ou decrescem conjuntamente, o 
 \subsection{\MakeUppercase{Perturbação pela Frequência de Rotação do Compressor}}\label{subsec:PertubaçãoRotacaoCompressor}
 
 
-As perturbações causadas por rotação, como P2, P4 e P5, demonstraram um comportamento, em geral, menos oscilatório do que as que foram apresentadas previamente na subseção \ref{subsec:PertubaçãoVelVentilador}. É perceptível que, em relação às pressões, quando há aumento da velocidade de rotação do compressor, a pressão de descarga sobe e a de sucção desce, esta relação inversa entre as pressões também foi apontada em outros trabalhos, como o estudo de \textcite{EffectsOFRefrigeranteCompressorAirFlow}. Por exemplo, a Figura \ref{fig:Pressão de Descarga e Sucção P2} mostra esta relação nas pressões de P2. 
+As perturbações causadas por rotação, como P2, P4 e P5, demonstraram um comportamento, em geral, menos oscilatório do que as que foram apresentadas previamente na subseção \ref{subsec:PertubaçãoVelVentilador}. É perceptível que, em relação às pressões, quando há aumento da velocidade de rotação do compressor, a pressão de descarga sobe aproximadamente 3 bar e a de sucção desce cerca de 1 bar, esta relação inversa entre as pressões também foi apontada em outros trabalhos, como o estudo de \textcite{EffectsOFRefrigeranteCompressorAirFlow}. Por exemplo, a Figura \ref{fig:Pressão de Descarga e Sucção P2} mostra esta relação nas pressões de P2. 
 \newpage
 \begin{figure}
     \centering
@@ -89,7 +110,7 @@ O transiente da parte de sucção é mais rápido que na parte de descarga e ist
 
 \subsection{\MakeUppercase{Análise da Histerese}}
 
- Utilizando o método de análise introduzido na subseção \ref{subsec:Método de Análise da Histerese} deste trabalho,foi possível  calcular a histerese normalizada das principais variáveis do sistema de condicionamento de ar. A Figura \ref{fig:histereses normalizadas} demonstra então estes valores encontrados.
+ Os resultados obtidos são calculados a partir das variáveis das perturbações P4 e P5,cujo teste foi realizado de forma que a rotação do compressor voltara ao seu estado inicial, permitindo desta forma aferir a histerese, de acordo conforme anteriormente apresentado nas Tabelas \ref{tab:pertubaçõesHisterese} e \ref{tab:posiçõesVentilador} utilizando o método de análise introduzido na subseção \ref{subsec:Método de Análise da Histerese} deste trabalho . A Figura \ref{fig:histereses normalizadas} demonstra então estes valores encontrados.
  \newpage
 \begin{figure}[h] 
 %gráfico a rever devido a valores maiores de histerese não antes analisados, mas creio que deve ter a ver com o que o lôndero falou da demora/rapidez conforme a mudança da válvula de expansão
@@ -102,11 +123,11 @@ O transiente da parte de sucção é mais rápido que na parte de descarga e ist
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 
-Nota-se que as histereses mais altas encontram-se próximas da região da válvula de expansão. Tanto na sua entrada como na sua saída, o que é um possível indício de que ela é a principal responsável pela diferença entre os caminhos de subida e descida de rotação. Foi também perceptível que a velocidade de convergência das variáveis de teste é afetada pela subida ou descida de rotação, principalmente das de menor histerese, como a temperatura e pressão de sucção. Por exemplo, o gráfico da Figura \ref{fig:PressãodeSucçãoSubidaeDescida} mostra a pressão de sucção nas perturbações P4 e P5, nota-se que em boa parte do transiente na subida de rotação há uma lacuna na coleta dos dados. Isto acontece pois a subida do transiente foi mais rápida do que a taxa de amostragem do sistema de aquisição.
+Nota-se que as histereses mais altas, como observadas na Figura \ref{fig:histereses normalizadas} sendo Temp. de descarga, pressão de descarga e Temp. ent evap, encontram-se próximas da região da válvula de expansão. Tanto na sua entrada como na sua saída, o que é um possível indício de que ela é a principal responsável pela diferença entre os caminhos de subida e descida de rotação. Foi também perceptível que a velocidade de convergência das variáveis de teste é afetada pela subida ou descida de rotação, principalmente das de menor histerese, como a temperatura e pressão de sucção. Por exemplo, o gráfico da Figura \ref{fig:PressãodeSucçãoSubidaeDescida} mostra a pressão de sucção nas perturbações P4 e P5, nota-se que em boa parte do transiente na subida de rotação há uma lacuna na coleta dos dados. Isto acontece pois a subida do transiente foi mais rápida do que a taxa de amostragem do sistema de aquisição.
 \newpage
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{FigurasdoTexto/Pressão de sucção subida e descida.png}
+    \includegraphics[width=1\linewidth]{FigurasdoTexto/Pressão de sucção subida e descida1.png}
     \caption{Pressão de Sucção nas Perturbações P4 e P5}
     \label{fig:PressãodeSucçãoSubidaeDescida}
     {\footnotesize Fonte: O Autor (2025)}
@@ -116,7 +137,7 @@ Uma possível explicação para esta mudança da velocidade de convergência pod
 \newpage
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{FigurasdoTexto/Temperatura de Sucção.png}
+    \includegraphics[width=1\linewidth]{FigurasdoTexto/Temperatura de Sucçãohyst.png}
     \caption{Temperatura de Sucção  nas Perturbações P4 e P5}
     \label{fig:TempSucçãoSubidaeDescida}
     {\footnotesize Fonte: O Autor (2025)}
@@ -127,7 +148,7 @@ Percebe-se, no entanto, após a estabilização da temperatura de descarga em P5
 \newpage
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{FigurasdoTexto/Temperatura de Descarga.png}
+    \includegraphics[width=1\linewidth]{FigurasdoTexto/Temperatura de Descargahyst.png}
     \caption{Temperatura de Descarga  nas Perturbações P4 e P5}
     \label{fig:TempDescargaSubidaeDescida}
     {\footnotesize Fonte: O Autor (2025)}
