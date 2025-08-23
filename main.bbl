@@ -19,6 +19,52 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{FanSpeedCOP-AlBadri}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=67c7c723f374450c568b13fb61bbfaa2}{%
+           family={Alkinany},
+           familyi={A\bibinitperiod},
+           given={Amany},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee1f37226ec2b0152d3faeb5b1390dd4}{%
+           family={Al-Badri},
+           familyi={A\bibinithyphendelim B\bibinitperiod},
+           given={Alaa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48b4b9078a7ac010a8f106f0b58fe662}{%
+           family={Hamed},
+           familyi={H\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4facec16680a8d8c0b51c4ad4e6fb970}
+      \strng{fullhash}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{fullhashraw}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{bibnamehash}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{authorbibnamehash}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{authornamehash}{4facec16680a8d8c0b51c4ad4e6fb970}
+      \strng{authorfullhash}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{authorfullhashraw}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wasit Journal of Engineering Sciences}
+      \field{month}{12}
+      \field{title}{Experimental study of the split-type air conditioner with the variable-speed compressor, variable-speed supply fan, and electronic expansion valve}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{57\bibrangedash 70}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.31185/ejuow.Vol11.Iss3.458
+      \endverb
+    \endentry
     \entry{bhatti1999}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=78c0953709581c3540ee2a734fb73d05}{%
@@ -408,12 +454,12 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
+      \strng{namehash}{38ee735f2371fa8a5528a2298389c710}
       \strng{fullhash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \strng{fullhashraw}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \strng{bibnamehash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \strng{authorbibnamehash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
-      \strng{authornamehash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
+      \strng{authornamehash}{38ee735f2371fa8a5528a2298389c710}
       \strng{authorfullhash}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \strng{authorfullhashraw}{fd30dbdbc8f52f0d82ffc745b1e8aac1}
       \field{sortinit}{D}
@@ -460,6 +506,7 @@
       \strng{authornamehash}{c013115dd5fa49b353bd000ec27e2eef}
       \strng{authorfullhash}{c013115dd5fa49b353bd000ec27e2eef}
       \strng{authorfullhashraw}{c013115dd5fa49b353bd000ec27e2eef}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -473,6 +520,47 @@
       \field{urlyear}{2024}
       \field{year}{2023}
       \field{urldateera}{ce}
+    \endentry
+    \entry{Oliveira2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c013115dd5fa49b353bd000ec27e2eef}{%
+           family={De\bibnamedelima Oliveira},
+           familyi={D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Igor\bibnamedelima Santos},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal de Santa Catarina, Campus Joinville}%
+      }
+      \strng{namehash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{fullhash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{fullhashraw}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{bibnamehash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{authorbibnamehash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{authornamehash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{authorfullhash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{authorfullhashraw}{c013115dd5fa49b353bd000ec27e2eef}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Detecção preditiva de falhas em sistemas de refrigeração de contêineres com ênfase em vazamentos de carga de fluido refrigerante}
+      \field{type}{Trabalho de Conclusão de Curso (Graduação)}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repositorio.ufsc.br/handle/123456789/266640
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ufsc.br/handle/123456789/266640
+      \endverb
     \endentry
     \entry{farrington2000}{inproceedings}{}{}
       \name{author}{2}{}{%
@@ -540,12 +628,12 @@
       \list{publisher}{1}{%
         {CONEMB}%
       }
-      \strng{namehash}{ae5e778a5737f648f3753be2642f92a3}
+      \strng{namehash}{be85216d816e869a0f1c717ac094164c}
       \strng{fullhash}{ae5e778a5737f648f3753be2642f92a3}
       \strng{fullhashraw}{ae5e778a5737f648f3753be2642f92a3}
       \strng{bibnamehash}{ae5e778a5737f648f3753be2642f92a3}
       \strng{authorbibnamehash}{ae5e778a5737f648f3753be2642f92a3}
-      \strng{authornamehash}{ae5e778a5737f648f3753be2642f92a3}
+      \strng{authornamehash}{be85216d816e869a0f1c717ac094164c}
       \strng{authorfullhash}{ae5e778a5737f648f3753be2642f92a3}
       \strng{authorfullhashraw}{ae5e778a5737f648f3753be2642f92a3}
       \field{sortinit}{J}

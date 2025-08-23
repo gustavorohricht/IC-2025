@@ -7,10 +7,10 @@ As atividades experimentais serão conduzidas no laboratório de refrigeração 
 \begin{figure}[ht]
     \centering
      \caption{Bancada Experimental}
-    \includegraphics[width=13.56cm, height=10.99cm]{FigurasdoTexto/Bancada Experimental.png}
+    \includegraphics[width=13.56cm, height=10.99cm]{FigurasdoTexto/Bancada Experimental1.png}
     \vspace{5pt}  % Add space before source
     
-    {\footnotesize Fonte: O Autor (2024)}  % Source text in smaller font
+    {\footnotesize Fonte: O Autor (2025)}  % Source text in smaller font
     \label{fig:bancada de teste}
 \end{figure}
 \newpage
@@ -22,13 +22,14 @@ Para a coleta de dados, foram instalados transdutores em pontos específicos no 
     \includegraphics[width=11.75cm, height=11.88cm]{FigurasdoTexto/Instalação Transdutores.png}
     \vspace{5pt}  % Add space before source
     
-    {\footnotesize Fonte: O Autor (2024)}  % Source text in smaller font
+    {\footnotesize Fonte: \textcite{Oliveira2025}}  % Source text in smaller font
     \label{fig:instalação transdutores}
 \end{figure}
+
 \newpage
 \subsection{PLANEJAMENTO EXPERIMENTAL} \label{subsec:PlanejamentoExperimental}
 
-O plano de teste foi desenvolvido com o objetivo de validar os dados obtidos pelo sistema de aquisição. Para a realização da fase experimental, foram elaborados dois roteiros para duas análises distintas: A primeira, cujas perturbações causadas podem ser encontradadas na Tabela \ref{tab:pertubaçõesTransiente}, tem o intuito único de analisar como diferentes perturbações causadas ao sistema afetam seu comportamento transiente. Os testes serão realizados alterando dois principais parâmetros: a  rotação do compressor e a posição de velocidade do ventilador do evaporador.
+O plano de teste foi desenvolvido com o objetivo de validar os dados obtidos pelo sistema de aquisição. Para a realização da fase experimental, foram elaborados dois roteiros para duas análises distintas: A primeira, cujas perturbações causadas podem ser encontradas na Tabela \ref{tab:pertubaçõesTransiente}, tem o intuito único de analisar como diferentes perturbações causadas ao sistema afetam seu comportamento transiente. Os testes serão realizados alterando dois principais parâmetros: a  rotação do compressor e a posição de velocidade do ventilador do evaporador.
 
 \begin{table}[htb]
     \centering
@@ -49,7 +50,7 @@ O plano de teste foi desenvolvido com o objetivo de validar os dados obtidos pel
     \label{tab:pertubaçõesTransiente}
 \end{table}
 
-Ainda na primeira análise, é de suma importância conhecer as condições iniciais do sistema antes de iniciar os testes. A Tabela \ref{tab:pertubaçõesTransienteCondiçõesIniciais} apresenta as condições iniciais do sistema antes de cada perturbação. Essas condições são essenciais para a análise do comportamento transiente do sistema para correta interpretação da carga térmica e desempenho do sistema de condicionamento de ar.
+Ainda na primeira análise, é de suma importância conhecer as condições de operação do sistema antes de iniciar os testes. A Tabela \ref{tab:pertubaçõesTransienteCondiçõesIniciais} apresenta estas condições antes de cada perturbação. Essas condições são essenciais para a análise do comportamento transiente do sistema para correta interpretação da carga térmica e desempenho do sistema de condicionamento de ar.
 
 
 \begin{table}[htb]
@@ -57,16 +58,16 @@ Ainda na primeira análise, é de suma importância conhecer as condições inic
 \begin{tabular}{|c|c|c|c|}
     \hline
     \textbf{Perturbação} & 
-    \makecell{\textbf{Temperatura Inicial} \\ \textbf{Entrada do} \\ \textbf{Evaporador [°C]}} &
-    \makecell{\textbf{Umidade Inicial} \\ \textbf{Entrada do} \\ \textbf{Evaporador [\%]}} &
-    \makecell{\textbf{Temperatura Inicial} \\ \textbf{Entrada do} \\ \textbf{Condensador [°C]}} \\
+    \makecell{\textbf{Temperatura} \\ \textbf{Entrada do} \\ \textbf{Evaporador [°C]}} &
+    \makecell{\textbf{Umidade} \\ \textbf{Entrada do} \\ \textbf{Evaporador [\%]}} &
+    \makecell{\textbf{Temperatura} \\ \textbf{Entrada do} \\ \textbf{Condensador [°C]}} \\
         \hline
-        P1 & 33 & 28 & 53 \\
-        P2 & 35 & 24   & 55\\
-        P3 & 39 & 19  & 66 \\
+        P1 & 35 & 24 & 34 \\
+        P2 & 38 & 20   & 34\\
+        P3 & 36 & 22  & 34 \\
         \hline
     \end{tabular}
-    \caption{Condições Iniciais das Perturbações Geradas no Sistema de Condicionamento de Ar para Análise do Transiente}
+    \caption{Condições de Temperatura e Umidade das Perturbações Geradas no Sistema de Condicionamento de Ar para Análise do Transiente}
     \vspace{5pt} 
 {\footnotesize Fonte: O Autor (2025) }
     \label{tab:pertubaçõesTransienteCondiçõesIniciais}
@@ -92,22 +93,22 @@ Na segunda análise, o intuito principal muda. Pretende-se gerar uma perturbaç�
     \label{tab:pertubaçõesHisterese}
 \end{table}
 
-Também se faz necessário conhecer as condições iniciais do sistema antes de iniciar os testes da segunda análise. A Tabela \ref{tab:pertubaçõesHistereseCondiçõesIniciais} apresenta as condições iniciais do sistema antes de cada perturbação. Essenciais da mesma forma que as condições iniciais da primeira análise para correta comparação do comportamento do sistema.
+Também se faz necessário conhecer as condições de operação do sistema antes de iniciar os testes da segunda análise. A Tabela \ref{tab:pertubaçõesHistereseCondiçõesIniciais} apresenta então estas condições  antes de cada perturbação. Essenciais da mesma forma que as condições de operação da primeira análise para correta comparação do comportamento do sistema. Observa-se que as condições de temperatura e umidade permanecem as mesmas para ambas as perturbações.
 
 \begin{table}[htb]
     \centering
 \begin{tabular}{|c|c|c|c|}
     \hline
     \textbf{Perturbação} & 
-    \makecell{\textbf{Temperatura Inicial} \\ \textbf{Entrada do} \\ \textbf{Evaporador [°C]}} &
-    \makecell{\textbf{Umidade Inicial} \\ \textbf{Entrada do} \\ \textbf{Evaporador [\%]}} &
-    \makecell{\textbf{Temperatura Inicial} \\ \textbf{Entrada do} \\ \textbf{Condensador [°C]}} \\
+    \makecell{\textbf{Temperatura} \\ \textbf{Entrada do} \\ \textbf{Evaporador [°C]}} &
+    \makecell{\textbf{Umidade} \\ \textbf{Entrada do} \\ \textbf{Evaporador [\%]}} &
+    \makecell{\textbf{Temperatura} \\ \textbf{Entrada do} \\ \textbf{Condensador [°C]}} \\
         \hline
-        P4 & 38 & 20  & 64\\
-        P5 & 39 & 18  & 68 \\
+        P4 & 38 & 19  & 34\\
+        P5 & 38 & 19  & 34 \\
         \hline
     \end{tabular}
-    \caption{Condições Iniciais das Perturbações Geradas no Sistema de Condicionamento de Ar para Análise da Histerese}
+    \caption{Condições de Temperatura e Umidade das Perturbações Geradas no Sistema de Condicionamento de Ar para Análise da Histerese}
     \vspace{5pt} 
 {\footnotesize Fonte: O Autor (2025) }
     \label{tab:pertubaçõesHistereseCondiçõesIniciais}
@@ -224,4 +225,4 @@ Em que $\dot W$ é a potência consumida pelo compressor e $ \dot Q_e$ é a capa
     \dot Q_e = \dot m_{ar}(h_{ar,entrada} - h_{ar,saida})
 \end{equation}
 
-Em que $\dot m_{ar}$ é a vazão mássica de ar e $h_{ar}$ é a entalpia do ar úmido. O valor de $\dot m_{ar}$ foi medido como 0,058 kg/s, dados experimentais provenientes do artigo de \textcite{ExperimentalThermalPerformance}. Os dados de entalpia são determinados utilizando o software EES, para o cálculo das entalpias de entrada, os dados experimentais da temperatura e umidade relativa de entrada do evaporador foram utilizados, assumindo pressão constante igual a uma atmosfera. Para as entalpias de saída, foi também assumida uma pressão constante de uma atmosfera e utilizado os dados de temperatura e umidade relativa de saída do evaporador. 
+Em que $\dot m_{ar}$ é a vazão mássica de ar e $h_{ar}$ é a entalpia do ar úmido. Os valores de $\dot m_{ar}$ foram medido como 0,037 kg/s e 0,071 kg/s para as posições do ventilador 1 e 4 respectivamente, dados experimentais provenientes do artigo de \textcite{ExperimentalThermalPerformance} e do laboratório \textcite{reve2023}. Os dados de entalpia são determinados utilizando o software EES, para o cálculo das entalpias de entrada, os dados experimentais da temperatura e umidade relativa de entrada do evaporador foram utilizados, assumindo pressão constante igual a uma atmosfera. Para as entalpias de saída, foi também assumida uma pressão constante de uma atmosfera e utilizado os dados de temperatura e umidade relativa de saída do evaporador. 

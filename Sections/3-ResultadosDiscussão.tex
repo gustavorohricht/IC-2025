@@ -54,10 +54,10 @@ A primeira observação, que talvez seja a mais específica entre todas, não ob
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 
-Nota-se, na Figura \ref{fig:TempSuccaoPertubacaoVentilador}, que há um pico máximo de temperatura de sucção e descarga em P1 logo após o aumento da vazão de ar. Este pico foi calculado como sendo 6 \% do valor final em estado estacionário. Isto ocorre devido a um evaporador subalimentado \cite{StoekerRefrigeration}. Tal fato acontece quando a válvula de expansão não consegue alimentar o evaporador com refrigerante o suficiente para refrigerar a superfície do evaporador adequadamente; como resultado, a temperatura e a pressão sobem.
-
-O pico mínimo de temperatura ocorre logo depois, provavelmente,devido a um evaporador inundado, isto é, após a subalimentação do evaporador, a válvula de expansão então deixa que mais fluido refrigerante passe até que o evaporador inunde, esta interpretação pode ser embasada com dados experimentais como na Figura \ref{fig:VazãodeFluidoPerturbaçãoVentilador}, onde há um pico máximo de vazão de fluido refrigerante ao mesmo tempo em que as temperaturas de sucção e descarga são mínimas. Também, no artigo de \textcite{VaryingFanSpeedCavallaro} foi observado que aumentar a vazão de ar do ventilador implica em um aumento do coeficiente de transferência de calor h do sistema. Isto também deve estar auxiliando para que a queda da temperatura ocorra mais rapidamente.
+Nota-se, na Figura \ref{fig:TempSuccaoPertubacaoVentilador}, que há um pico máximo de temperatura de sucção e descarga em P1 logo após o aumento da vazão de ar. Este pico foi calculado como sendo 2 °C e 3°C acima do valor final em estado estacionário das temperaturas de sucção e descarga de P1, respectivamente. Após o pico máximo, as temperaturas de sucção e descarga demoram aproximadamente 140 e 200 segundos para estabilizar em seus respectivos valores finais. Isto ocorre devido a um evaporador subalimentado \cite{StoekerRefrigeration}. Tal fato acontece quando a válvula de expansão não consegue alimentar o evaporador com refrigerante o suficiente para refrigerar a superfície do evaporador adequadamente; como resultado, a temperatura e a pressão sobem.
 \newpage
+O pico mínimo de temperatura ocorre logo depois, provavelmente,devido a um evaporador inundado, isto é, após a subalimentação do evaporador, a válvula de expansão então deixa que mais fluido refrigerante passe até que o evaporador inunde, esta interpretação pode ser embasada com dados experimentais como na Figura \ref{fig:VazãodeFluidoPerturbaçãoVentilador}, onde há um pico máximo de vazão de fluido refrigerante ao mesmo tempo em que as temperaturas de sucção e descarga são mínimas. Também, no artigo de \textcite{VaryingFanSpeedCavallaro} foi observado que aumentar a vazão de ar do ventilador implica em um aumento do coeficiente de transferência de calor h do sistema. Isto também deve estar auxiliando para que a queda da temperatura ocorra mais rapidamente.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{FigurasdoTexto/VazãodeFluidoPerturbaçãoVentilador.png}
@@ -68,7 +68,7 @@ O pico mínimo de temperatura ocorre logo depois, provavelmente,devido a um evap
 %Explicações- as temperaturas atingem um pico máximo devido a um evaporador seco (stoeker) causando aumento de temperatura e pressão e um pico mínimo de fluido vazão de fluido refrigerante. Já o mínimo ocorre devido a um evaporador cheio (inundado), faz sentido porque há um pico de vazão de fluido refrigerante .
 
 No entanto, as temperaturas de sucção e descarga após isso sobem aproximadamente 5 °C  e 1 °C respectivamente em relação à temperatura mínima atingida, e oscilam até estabilizar. Esta subida de temperatura possivelmente tem relação com que, embora o coeficiente de transferência de calor tenha aumentado,há mais vazão de ar do que o que pode ser resfriado de maneira mais eficaz pelo sistema, então as temperaturas sobem, e fazem isso oscilando, procurando a posição de equilíbrio entre a pressão de sucção e o fluxo da taxa de massa \cite{StoekerRefrigeration}.  
-
+\newpage
 No caso de P3 não são observados extremos de temperatura, provavelmente pois, como a velocidade e vazão de ar neste caso são reduzidos, diminuí-los é uma alteração menos brusca no sistema, ela apenas decresce oscilando, devido possivelmente à mesma razão que P1 cresce, isto é, com menos vazão de ar é mais fácil resfriá-lo e oscila procurando o equilíbrio.
 
 As pressões de descarga e sucção ambas crescem ou decrescem conjuntamente, o que é o oposto do observado nas pressões nas perturbações por rotação. Como na Figura \ref{fig:Pressões de Sucção e Descarga P1 e P3}, o aumento das pressões ou diminuição delas ocorre em decorrência do aumento ou diminuição da carga térmica no evaporador, respectivamente \cite{EffectsOFRefrigeranteCompressorAirFlow}.
@@ -80,13 +80,13 @@ As pressões de descarga e sucção ambas crescem ou decrescem conjuntamente, o 
     \label{fig:Pressões de Sucção e Descarga P1 e P3}
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
-
-\subsection{\MakeUppercase{Perturbação pela Frequência de Rotação do Compressor}}\label{subsec:PertubaçãoRotacaoCompressor}
+\newpage
+\subsection{\MakeUppercase{Perturbação pela Variação de Rotação do Compressor}}\label{subsec:PertubaçãoRotacaoCompressor}
 
 
 As perturbações causadas por rotação, como P2, P4 e P5, demonstraram um comportamento, em geral, menos oscilatório do que as que foram apresentadas previamente na subseção \ref{subsec:PertubaçãoVelVentilador}. É perceptível que, em relação às pressões, quando há aumento da velocidade de rotação do compressor, a pressão de descarga sobe aproximadamente 3 bar e a de sucção desce cerca de 1 bar, esta relação inversa entre as pressões também foi apontada em outros trabalhos, como o estudo de \textcite{EffectsOFRefrigeranteCompressorAirFlow}. Por exemplo, a Figura \ref{fig:Pressão de Descarga e Sucção P2} mostra esta relação nas pressões de P2. 
-\newpage
-\begin{figure}
+
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{FigurasdoTexto/Pressão de Descarga e Sucção P2.png}
     \caption{Pressões de Descarga e Sucção P2}
@@ -107,12 +107,12 @@ O transiente da parte de sucção é mais rápido que na parte de descarga e ist
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 %\subsection{Estimativa dos Tempos de Acomodação}\newpage
-
+\newpage
 \subsection{\MakeUppercase{Análise da Histerese}}
 
- Os resultados obtidos são calculados a partir das variáveis das perturbações P4 e P5,cujo teste foi realizado de forma que a rotação do compressor voltara ao seu estado inicial, permitindo desta forma aferir a histerese, de acordo conforme anteriormente apresentado nas Tabelas \ref{tab:pertubaçõesHisterese} e \ref{tab:posiçõesVentilador} utilizando o método de análise introduzido na subseção \ref{subsec:Método de Análise da Histerese} deste trabalho . A Figura \ref{fig:histereses normalizadas} demonstra então estes valores encontrados.
- \newpage
-\begin{figure}[h] 
+ Os resultados obtidos são calculados a partir das variáveis das perturbações P4 e P5,cujo teste foi realizado de forma que a rotação do compressor voltara ao seu estado inicial, permitindo desta forma aferir a histerese, conforme anteriormente apresentado nas Tabelas \ref{tab:pertubaçõesHisterese} e \ref{tab:posiçõesVentilador} utilizando o método de análise introduzido na subseção \ref{subsec:Método de Análise da Histerese} deste trabalho. A Figura \ref{fig:histereses normalizadas} demonstra então estes valores encontrados.
+
+ \begin{figure}[h] 
 %gráfico a rever devido a valores maiores de histerese não antes analisados, mas creio que deve ter a ver com o que o lôndero falou da demora/rapidez conforme a mudança da válvula de expansão
 
 %valores agora estão mais realistas, o problema é que estava comparando a entra e saída do 1002 com o 1001 e 1002 com 1004 o que não fazia sentido
@@ -123,8 +123,8 @@ O transiente da parte de sucção é mais rápido que na parte de descarga e ist
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 
-Nota-se que as histereses mais altas, como observadas na Figura \ref{fig:histereses normalizadas} sendo Temp. de descarga, pressão de descarga e Temp. ent evap, encontram-se próximas da região da válvula de expansão. Tanto na sua entrada como na sua saída, o que é um possível indício de que ela é a principal responsável pela diferença entre os caminhos de subida e descida de rotação. Foi também perceptível que a velocidade de convergência das variáveis de teste é afetada pela subida ou descida de rotação, principalmente das de menor histerese, como a temperatura e pressão de sucção. Por exemplo, o gráfico da Figura \ref{fig:PressãodeSucçãoSubidaeDescida} mostra a pressão de sucção nas perturbações P4 e P5, nota-se que em boa parte do transiente na subida de rotação há uma lacuna na coleta dos dados. Isto acontece pois a subida do transiente foi mais rápida do que a taxa de amostragem do sistema de aquisição.
-\newpage
+Nota-se que as histereses mais altas, como observadas na Figura \ref{fig:histereses normalizadas} sendo Temp. de descarga, pressão de descarga e Temp. ent evap, encontram-se próximas da região da válvula de expansão. Tanto na sua entrada como na sua saída, o que é um possível indício de que ela é a principal responsável pelas variações observadas no sistema, como por exemplo a diferença entre a velocidade dos transientes das variáveis de P4 e P5. É também perceptível que a velocidade de convergência das variáveis de teste é afetada pela subida ou descida de rotação, principalmente das de menor histerese, como a temperatura e pressão de sucção. Por exemplo, o gráfico da Figura \ref{fig:PressãodeSucçãoSubidaeDescida} mostra a pressão de sucção nas perturbações P4 e P5, nota-se que em boa parte do transiente na subida de rotação há uma lacuna na coleta dos dados. Isto acontece pois a subida do transiente foi mais rápida do que a taxa de amostragem do sistema de aquisição.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{FigurasdoTexto/Pressão de sucção subida e descida1.png}
@@ -162,17 +162,17 @@ Nesta subseção, serão apresentadas as análises do Coeficiente de Performance
 
 \subsubsection{Efeito da Variação da Vazão de Ar do Ventilador no COP}
 
-A capacidade de refrigeração do sistema oscila ao aumentar a vazão de ar do ventilador, o que é um resultado razoável devido ao analisado das perturbações nas temperaturas e pressões de sucção e descarga do compressor, analisadas com mais detalhe na subseção \ref{subsec:PertubaçãoVelVentilador}. A capacidade de refrigeração decresce e oscila com o aumento da vazão de ar do ventilador, isto é, para P1, como pode ser visto na Figura \ref{fig:Qe e W Perturbação Ventilador}. Isto ocorre devido, principalmente, à temperatura de saída e umidade relativa de saída do evaporador que apresentaram oscilações, o que afeta diretamente os cálculos de entalpia do ar. P3 oscila menos, o que deve estar relacionado com as razões explicadas anteriormente na subseção \ref{subsec:PertubaçãoVelVentilador}.
+A capacidade de refrigeração do sistema oscila ao aumentar a vazão de ar do ventilador, o que é um resultado razoável devido ao analisado das perturbações nas temperaturas e pressões de sucção e descarga do compressor, analisadas com mais detalhe na subseção \ref{subsec:PertubaçãoVelVentilador}. A capacidade de refrigeração cresce e oscila com o aumento da vazão de ar do ventilador, isto é, para P1, como pode ser visto na Figura \ref{fig:Qe e W Perturbação Ventilador}. Isto ocorre devido, principalmente, à temperatura de saída e umidade relativa de saída do evaporador que apresentaram oscilações, o que afeta diretamente os cálculos de entalpia do ar. P3 oscila menos, o que deve estar relacionado com as razões explicadas anteriormente na subseção \ref{subsec:PertubaçãoVelVentilador}.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{FigurasdoTexto/Qe e W Perturbação Ventilador.png}
-    \caption{Capacidade de Refrigeração e Potência de Consumo do Compressor nas Perturbações P1 e P3}
+    \caption{Capacidade de Refrigeração e Potência Consumida Pelo Compressor nas Perturbações P1 e P3}
     \label{fig:Qe e W Perturbação Ventilador}
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 
-Portanto o COP também oscila, como pode ser visto na Figura \ref{fig:COP Perturbação Ventilador}. A oscilação do COP é completamente relacionada à oscilação da capacidade de refrigeração neste caso, já que a potência de consumo do compressor é mantida fixa. Oscilando para P1 e menos para P3. Nota-se que o COP inicial de P1 e P3 são completamente diferentes, isto, claro, tem relação com as rotações do compressor que, embora fixas, são distintas entre si como foi apresentado na Figura \ref{fig:Qe e W Perturbação Ventilador}. O COP final é muito similar entre P1 e P3, isto ocorre pois, embora a capacidade de refrigeração de P1 seja menor que a de P3, a razão entre capacidade de refrigeração e potência de consumo do compressor, isto é, o COP, neste caso são ambas muito similares. Foram observadas reduções de 43\% no COP em P1 e aumentos de 22\% em P3, quando comparado ao estado estacionário.
+Portanto o COP também oscila, como pode ser visto na Figura \ref{fig:COP Perturbação Ventilador}. A oscilação do COP é completamente relacionada à oscilação da capacidade de refrigeração neste caso, já que a potência consumida pelo compressor é mantida fixa. Oscilando para P1 e menos para P3. O COP cresce quando a vazão de ar aumenta e decresce quando ela diminui, tal resultado é aferido em outros estudos como por exemplo no artigo de \textcite{FanSpeedCOP-AlBadri} onde também foi observado que houve um aumento do COP ao aumentar a vazão de ar caso a rotação do compressor seja mantida fixa. Este aumento ou diminuição do COP ocorre devido ao processo de troca de calor. Foi observado um aumento de 26\% no COP em P1 e redução de 33\% em P3, quando comparado ao estado estacionário.
 \newpage
 \begin{figure}[h]
     \centering
@@ -182,29 +182,29 @@ Portanto o COP também oscila, como pode ser visto na Figura \ref{fig:COP Pertur
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 
-\subsubsection{Efeito da Frequência de Rotação do Compressor no COP}
+\subsubsection{Efeito da Variação de Rotação do Compressor no COP}
 
-Nesta situação, ao aumentar a frequência de rotação do compressor, a capacidade de refrigeração do sistema aumenta, como pode ser vista na Figura \ref{fig:Capacidade de Resfriamento e Potência de Consumo do Compressor P2} para a perturbação P2. Isto ocorre devido à diminuição da entalpia de saída e o aumento da entalpia de entrada do ar.
+Nesta situação, ao aumentar a variação da rotação do compressor, a capacidade de refrigeração do sistema aumenta, como pode ser vista na Figura \ref{fig:Capacidade de Resfriamento e potência consumida pelo Compressor P2} para a perturbação P2. Isto ocorre devido à diminuição da entalpia de saída e o aumento da entalpia de entrada do ar.
 \newpage
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{FigurasdoTexto/Qe e W Perturbação Rot.png}
-    \caption{Capacidade de Refrigeração e Potência de Consumo do Compressor na Perturbação P2}
-    \label{fig:Capacidade de Resfriamento e Potência de Consumo do Compressor P2}
+    \caption{Capacidade de Refrigeração e Potência Consumida Pelo Compressor na Perturbação P2}
+    \label{fig:Capacidade de Resfriamento e potência consumida pelo Compressor P2}
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 
-É importante ressaltar que o transiente da potência de consumo do compressor é, para efeitos práticos de análise, instantâneo, o que não acontece com a capacidade de refrigeração. Esta diferença entre os transientes da capacidade de refrigeração e da potência de consumo do compressor pode ser vista na Figura \ref{fig:zoom capapcidade de refrigeração e potência de consumo}. O transiente imediato da potência de consumo do compressor é o causador da variação abrupta do COP que pode ser observada nas Figuras \ref{fig:Análise do COP Rotação} e \ref{fig:Análise do COP Histerese} também. 
+É importante ressaltar que o transiente da potência consumida pelo compressor é, para efeitos práticos de análise, instantâneo, o que não acontece com a capacidade de refrigeração. Esta diferença entre os transientes da capacidade de refrigeração e da potência consumida pelo compressor pode ser vista na Figura \ref{fig:zoom capapcidade de refrigeração e potência de consumo}. O transiente imediato da potência consumida pelo compressor é o causador da variação abrupta do COP que pode ser observada nas Figuras \ref{fig:Análise do COP Rotação} e \ref{fig:Análise do COP Histerese} também. 
 \newpage
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{FigurasdoTexto/Zoom Capacidade de Refrigeração e Potência de Consumo.png}
-    \caption{Transiente da Capacidade de Refrigeração e Potência de Consumo do Compressor na Perturbação P2}
+    \caption{Transiente da Capacidade de Refrigeração e Potência Consumida Pelo Compressor na Perturbação P2}
     \label{fig:zoom capapcidade de refrigeração e potência de consumo}
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure} 
 
-Embora a capacidade de refrigeração do sistema aumente, o oposto ocorre no COP, como pode ser visto na Figura \ref{fig:Análise do COP Rotação}, o COP diminui com o aumento da frequência de rotação do compressor. Este resultado é bem documentado na literatura, por exemplo \textcite{MASCHE2021302} explica que o COP diminui devido ao aumento da potência de consumo do compressor, aumentando mais do que a capacidade de refrigeração do sistema. Também pode estar atrelado às quedas de pressão do fluido refrigerante ao passar pelos trocadores de calor, como mencionado por \textcite{CONSTANTINO2022101048} o que pode levar à diminuição também da eficiência da compressão em rotações mais elevadas, como mencionado por \textcite{stoecker1998industrial}. Foi observada uma diminuição de 25\% no COP em P2, quando comparado ao estado estacionário.
+Embora a capacidade de refrigeração do sistema aumente, o oposto ocorre no COP, como pode ser visto na Figura \ref{fig:Análise do COP Rotação}, o COP diminui com o aumento da frequência de rotação do compressor. Este resultado é bem documentado na literatura, por exemplo \textcite{MASCHE2021302} explica que o COP diminui devido ao aumento da potência consumida pelo compressor, aumentando mais do que a capacidade de refrigeração do sistema. Também pode estar atrelado às quedas de pressão do fluido refrigerante ao passar pelos trocadores de calor, como mencionado por \textcite{CONSTANTINO2022101048} o que pode levar à diminuição também da eficiência da compressão em rotações mais elevadas, como mencionado por \textcite{stoecker1998industrial}. Foi observada uma diminuição de 25\% no COP em P2, quando comparado ao estado estacionário.
 \newpage
 \begin{figure}[h]
     \centering
@@ -216,21 +216,21 @@ Embora a capacidade de refrigeração do sistema aumente, o oposto ocorre no COP
 
 \subsubsection{Efeito da Histerese no COP}
 
-Conforme \textcite{MASCHE2021302}, a influência da histerese no COP é muito mais dramática do que na capacidade de refrigeração do sistema. Isto acontece pois o trabalho de entrada de refrigeradores eficientes é muito baixo. O COP cai rapidamente e a histerese aumenta devido à redução da capacidade de refrigeração e ao aumento do trabalho de entrada do compressor. Esta frase é possível de ser verificada, para a capacidade de refrigeração, observando a Figura \ref{fig:Capacidade de Resfriamento e Potência de Entrada do Compressor P4 e P5}. Ela demonstra como a capacidade de refrigeração e a potência de consumo do compressor variam nas perturbações P4 e P5. A potência de consumo do compressor varia, para efeitos práticos, quase que instantaneamente, enquanto a capacidade de refrigeração varia de forma mais lenta e gradual, pois o transiente das entalpias está relacionado aos transientes de umidade e temperaturas do evaporador, que dependem também do restante do sistema, enquanto a rotação do compressor depende apenas do inversor.
+Conforme \textcite{MASCHE2021302}, a influência da histerese no COP é muito mais dramática do que na capacidade de refrigeração do sistema. Isto acontece pois o trabalho de entrada de refrigeradores eficientes é muito baixo. O COP cai rapidamente e a histerese aumenta devido à redução da capacidade de refrigeração e ao aumento do trabalho de entrada do compressor. Esta frase é possível de ser verificada, para a capacidade de refrigeração, observando a Figura \ref{fig:Capacidade de Resfriamento e Potência de Entrada do Compressor P4 e P5}. Ela demonstra como a capacidade de refrigeração e a potência consumida pelo compressor variam nas perturbações P4 e P5. A potência consumida pelo compressor varia, para efeitos práticos, quase que instantaneamente, enquanto a capacidade de refrigeração varia de forma mais lenta e gradual, pois o transiente das entalpias está relacionado aos transientes de umidade e temperaturas do evaporador, que dependem também do restante do sistema, enquanto a rotação do compressor depende apenas do inversor.
 \newpage
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{FigurasdoTexto/Qe e W Histerese.png}
-    \caption{Capacidade de Refrigeração e Potência de Consumo do Compressor nas Perturbações P4 e P5}
+    \caption{Capacidade de Refrigeração e Potência Consumida Pelo Compressor nas Perturbações P4 e P5}
     \label{fig:Capacidade de Resfriamento e Potência de Entrada do Compressor P4 e P5}
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 
-Utilizando a equação \ref{eq:COP}, então é possível determinar o COP do sistema nas perturbações P4 e P5, o que pode ser visto na Figura \ref{fig:Análise do COP Histerese}, nota-se que a histerese do COP, como dito por \textcite{MASCHE2021302}, é acentuada e isto ocorre devido ao impacto da variação da potência de consumo do compressor ser consideravelmente maior do que a variação da capacidade de refrigeração do sistema. A histerese normalizada do COP foi calculada como sendo 11\%, o que é um valor considerável. Houve também uma diminuição de 11\% no COP em P4 e 12\% de aumento em P5, quando comparado ao estado estacionário.
+Utilizando a equação \ref{eq:COP}, então é possível determinar o COP do sistema nas perturbações P4 e P5, o que pode ser visto na Figura \ref{fig:Análise do COP Histerese}, nota-se que a histerese do COP, como dito por \textcite{MASCHE2021302}, é acentuada e isto ocorre devido ao impacto da variação da potência consumida pelo compressor ser consideravelmente maior do que a variação da capacidade de refrigeração do sistema. A histerese normalizada do COP foi calculada como sendo 11\%, o que é um valor considerável. Houve também uma diminuição de 11\% no COP em P4 e 12\% de aumento em P5, quando comparado ao estado estacionário.
 \newpage
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{FigurasdoTexto/COP Histerese.png}
+    \includegraphics[width=1\linewidth]{FigurasdoTexto/COP Histerese1.png}
     \caption{Histerese no COP nas Perturbações P4 e P5}
     \label{fig:Análise do COP Histerese}
     {\footnotesize Fonte: O Autor (2025)}
