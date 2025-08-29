@@ -19,6 +19,52 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{FanSpeedCOP-AlBadri}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=67c7c723f374450c568b13fb61bbfaa2}{%
+           family={Alkinany},
+           familyi={A\bibinitperiod},
+           given={Amany},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee1f37226ec2b0152d3faeb5b1390dd4}{%
+           family={Al-Badri},
+           familyi={A\bibinithyphendelim B\bibinitperiod},
+           given={Alaa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48b4b9078a7ac010a8f106f0b58fe662}{%
+           family={Hamed},
+           familyi={H\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4facec16680a8d8c0b51c4ad4e6fb970}
+      \strng{fullhash}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{fullhashraw}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{bibnamehash}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{authorbibnamehash}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{authornamehash}{4facec16680a8d8c0b51c4ad4e6fb970}
+      \strng{authorfullhash}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \strng{authorfullhashraw}{c2c5d4c5400c9dbed037d98ccf8c1b47}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wasit Journal of Engineering Sciences}
+      \field{month}{12}
+      \field{title}{Experimental study of the split-type air conditioner with the variable-speed compressor, variable-speed supply fan, and electronic expansion valve}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{57\bibrangedash 70}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.31185/ejuow.Vol11.Iss3.458
+      \endverb
+    \endentry
     \entry{bhatti1999}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=78c0953709581c3540ee2a734fb73d05}{%
@@ -75,12 +121,12 @@
            giveni={C\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{0f4ace867e4f68dbc51660cf5d31f432}
+      \strng{namehash}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{fullhash}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{fullhashraw}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{bibnamehash}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{authorbibnamehash}{4f1c74d3af2ec00258209e2490c8006e}
-      \strng{authornamehash}{0f4ace867e4f68dbc51660cf5d31f432}
+      \strng{authornamehash}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{authorfullhash}{4f1c74d3af2ec00258209e2490c8006e}
       \strng{authorfullhashraw}{4f1c74d3af2ec00258209e2490c8006e}
       \field{sortinit}{C}
@@ -195,12 +241,12 @@
            giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{d3255495dc830d089717c9b6aa82fa42}
+      \strng{namehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{fullhash}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{fullhashraw}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{bibnamehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{authorbibnamehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
-      \strng{authornamehash}{d3255495dc830d089717c9b6aa82fa42}
+      \strng{authornamehash}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{authorfullhash}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \strng{authorfullhashraw}{b1a84bf15c13d0feae3a06d0d34b9d35}
       \field{sortinit}{C}
@@ -226,63 +272,8 @@
       \verb https://www.sciencedirect.com/science/article/pii/S2451904921002092
       \endverb
     \endentry
-    \entry{dasilva2024}{article}{}{}
-      \name{author}{4}{ul=2}{%
-        {{un=0,uniquepart=base,hash=649e5faf908d115441bb2ffcaba90112}{%
-           family={{Da Silva}},
-           familyi={D\bibinitperiod},
-           given={D.L.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b81b92c7335c434b613ae60829ccb581}{%
-           family={{De Oliveira}},
-           familyi={D\bibinitperiod},
-           given={I.S.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b0f0d27c06a0b9c2308b831584d39cf5}{%
-           family={Juliani},
-           familyi={J\bibinitperiod},
-           given={A.D.P.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f67b59a7e81c07615e4be2d096737057}{%
-           family={{De Cordova}},
-           familyi={D\bibinitperiod},
-           given={G.\bibnamedelimi M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{03dc014827d83e15eb913605d0f7b817}
-      \strng{fullhash}{2a73a8f6ec9c6f60c76301ae03299128}
-      \strng{fullhashraw}{2a73a8f6ec9c6f60c76301ae03299128}
-      \strng{bibnamehash}{2a73a8f6ec9c6f60c76301ae03299128}
-      \strng{authorbibnamehash}{2a73a8f6ec9c6f60c76301ae03299128}
-      \strng{authornamehash}{03dc014827d83e15eb913605d0f7b817}
-      \strng{authorfullhash}{2a73a8f6ec9c6f60c76301ae03299128}
-      \strng{authorfullhashraw}{2a73a8f6ec9c6f60c76301ae03299128}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{J. Braz. Soc. Mech. Sci. Eng.}
-      \field{title}{Avaliação do desempenho térmico de sistemas de ar condicionado automotivo: uma abordagem experimental combinando primeira e segunda leis da termodinâmica}
-      \field{urlday}{28}
-      \field{urlmonth}{11}
-      \field{urlyear}{2024}
-      \field{volume}{46}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \field{pages}{703}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1007/s40430-024-05283-1
-      \endverb
-    \endentry
     \entry{dasilva2016}{inproceedings}{}{}
-      \name{author}{2}{ul=2}{%
+      \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=649e5faf908d115441bb2ffcaba90112}{%
            family={{Da Silva}},
            familyi={D\bibinitperiod},
@@ -327,25 +318,81 @@
       \verb https://refridynamics.ufsc.br/
       \endverb
     \endentry
+    \entry{dasilva2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=649e5faf908d115441bb2ffcaba90112}{%
+           family={{Da Silva}},
+           familyi={D\bibinitperiod},
+           given={D.L.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae1eb551a1ac0c04cebea2dbefc0aaf7}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={I.S.\bibnamedelimi De},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0f0d27c06a0b9c2308b831584d39cf5}{%
+           family={Juliani},
+           familyi={J\bibinitperiod},
+           given={A.D.P.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd91a2b7ab555343766136960a19a1a1}{%
+           family={Cordova},
+           familyi={C\bibinitperiod},
+           given={G.\bibnamedelimi M.\bibnamedelimi De},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce37b1302693fdf3cefb73a22ebe3d94}
+      \strng{fullhash}{775f0b2fdf7a39baa48561508522e205}
+      \strng{fullhashraw}{775f0b2fdf7a39baa48561508522e205}
+      \strng{bibnamehash}{775f0b2fdf7a39baa48561508522e205}
+      \strng{authorbibnamehash}{775f0b2fdf7a39baa48561508522e205}
+      \strng{authornamehash}{ce37b1302693fdf3cefb73a22ebe3d94}
+      \strng{authorfullhash}{775f0b2fdf7a39baa48561508522e205}
+      \strng{authorfullhashraw}{775f0b2fdf7a39baa48561508522e205}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Braz. Soc. Mech. Sci. Eng.}
+      \field{title}{Avaliação do desempenho térmico de sistemas de ar condicionado automotivo: uma abordagem experimental combinando primeira e segunda leis da termodinâmica}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{46}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{703}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s40430-024-05283-1
+      \endverb
+    \endentry
     \entry{ExperimentalThermalPerformance}{inproceedings}{}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=134e81ecbefa29d4807d9183d692da73}{%
-           family={{da Silva}},
-           familyi={d\bibinitperiod},
+        {{un=0,uniquepart=base,hash=d4db1e56fc090303fd957b332b23cc5c}{%
+           family={Da\bibnamedelima Silva},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
            given={Diogo\bibnamedelima Lôndero},
            giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b1a6d789a0292d5a12f858b76e84d8ee}{%
-           family={Oliveira},
-           familyi={O\bibinitperiod},
-           given={Igor},
-           giveni={I\bibinitperiod},
+        {{un=0,uniquepart=base,hash=c013115dd5fa49b353bd000ec27e2eef}{%
+           family={De\bibnamedelima Oliveira},
+           familyi={D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Igor\bibnamedelima Santos},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=38e6f142abb5bc1be909c11ec35f05dd}{%
+        {{un=0,uniquepart=base,hash=0b225f90e7829a8c4a00fff0adae445e}{%
            family={Juliani},
            familyi={J\bibinitperiod},
-           given={Aline},
-           giveni={A\bibinitperiod},
+           given={Aline\bibnamedelimb Durrer\bibnamedelima Patelli},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=6be09998a8056375ea173792b0582b58}{%
            family={Fischer},
@@ -353,25 +400,26 @@
            given={Filipe},
            giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8cc222bbf65a27e989e54eb9fa718b7e}{%
-           family={Cordova},
-           familyi={C\bibinitperiod},
-           given={Guilherme},
-           giveni={G\bibinitperiod},
+        {{un=0,uniquepart=base,hash=1106e215fc7020431f0c6898b8f1828f}{%
+           family={De\bibnamedelima Cordova},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Guilherme\bibnamedelima Medeiros},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
       }
       \list{location}{1}{%
         {Florianópolis}%
       }
-      \strng{namehash}{e8927bee2d319f82ce4e203bb6c814fb}
-      \strng{fullhash}{89217ed1526bab25fdb101460b9cc510}
-      \strng{fullhashraw}{89217ed1526bab25fdb101460b9cc510}
-      \strng{bibnamehash}{89217ed1526bab25fdb101460b9cc510}
-      \strng{authorbibnamehash}{89217ed1526bab25fdb101460b9cc510}
-      \strng{authornamehash}{e8927bee2d319f82ce4e203bb6c814fb}
-      \strng{authorfullhash}{89217ed1526bab25fdb101460b9cc510}
-      \strng{authorfullhashraw}{89217ed1526bab25fdb101460b9cc510}
-      \field{sortinit}{d}
+      \strng{namehash}{209ee58f4291ce277b0bb06c82a16e93}
+      \strng{fullhash}{8b575dcc5a64777ce85f8a1b3d8427ce}
+      \strng{fullhashraw}{8b575dcc5a64777ce85f8a1b3d8427ce}
+      \strng{bibnamehash}{8b575dcc5a64777ce85f8a1b3d8427ce}
+      \strng{authorbibnamehash}{8b575dcc5a64777ce85f8a1b3d8427ce}
+      \strng{authornamehash}{209ee58f4291ce277b0bb06c82a16e93}
+      \strng{authorfullhash}{8b575dcc5a64777ce85f8a1b3d8427ce}
+      \strng{authorfullhashraw}{8b575dcc5a64777ce85f8a1b3d8427ce}
+      \field{extraname}{2}
+      \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
@@ -458,6 +506,7 @@
       \strng{authornamehash}{c013115dd5fa49b353bd000ec27e2eef}
       \strng{authorfullhash}{c013115dd5fa49b353bd000ec27e2eef}
       \strng{authorfullhashraw}{c013115dd5fa49b353bd000ec27e2eef}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -471,6 +520,47 @@
       \field{urlyear}{2024}
       \field{year}{2023}
       \field{urldateera}{ce}
+    \endentry
+    \entry{Oliveira2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c013115dd5fa49b353bd000ec27e2eef}{%
+           family={De\bibnamedelima Oliveira},
+           familyi={D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Igor\bibnamedelima Santos},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal de Santa Catarina, Campus Joinville}%
+      }
+      \strng{namehash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{fullhash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{fullhashraw}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{bibnamehash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{authorbibnamehash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{authornamehash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{authorfullhash}{c013115dd5fa49b353bd000ec27e2eef}
+      \strng{authorfullhashraw}{c013115dd5fa49b353bd000ec27e2eef}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Detecção preditiva de falhas em sistemas de refrigeração de contêineres com ênfase em vazamentos de carga de fluido refrigerante}
+      \field{type}{Trabalho de Conclusão de Curso (Graduação)}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repositorio.ufsc.br/handle/123456789/266640
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ufsc.br/handle/123456789/266640
+      \endverb
     \endentry
     \entry{farrington2000}{inproceedings}{}{}
       \name{author}{2}{}{%
@@ -493,12 +583,12 @@
       \list{publisher}{1}{%
         {National Renewable Energy Laboratory (NREL)}%
       }
-      \strng{namehash}{6bc0dc7d5c366f9b246907f52223335c}
+      \strng{namehash}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{fullhash}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{fullhashraw}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{bibnamehash}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{authorbibnamehash}{05c710d9c47e47c63f3dea04d45a3da3}
-      \strng{authornamehash}{6bc0dc7d5c366f9b246907f52223335c}
+      \strng{authornamehash}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{authorfullhash}{05c710d9c47e47c63f3dea04d45a3da3}
       \strng{authorfullhashraw}{05c710d9c47e47c63f3dea04d45a3da3}
       \field{sortinit}{F}
@@ -747,8 +837,8 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Basic Thermodynamics of Reciprocating Compression}
-      \field{title}{Turbomachinery Laboratory, Texas A\&M Engineering Experiment Station}
+      \field{booktitle}{Turbomachinery Laboratory, Texas A\&M Engineering Experiment Station}
+      \field{title}{Basic Thermodynamics of Reciprocating Compression}
       \field{urlday}{13}
       \field{urlmonth}{6}
       \field{urlyear}{2025}
@@ -831,7 +921,7 @@
       \endverb
     \endentry
     \entry{StoekerRefrigeration}{book}{}{}
-      \name{author}{2}{ul=2}{%
+      \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=fe1cf063d883fbce1b312ce2c7c9e439}{%
            family={Stoecker},
            familyi={S\bibinitperiod},

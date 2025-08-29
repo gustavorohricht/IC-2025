@@ -50,7 +50,7 @@ O plano de teste foi desenvolvido com o objetivo de validar os dados obtidos pel
     \label{tab:pertubaçõesTransiente}
 \end{table}
 
-Ainda na primeira análise, é de suma importância conhecer as condições de operação do sistema antes de iniciar os testes. A Tabela \ref{tab:pertubaçõesTransienteCondiçõesIniciais} apresenta estas condições antes de cada perturbação. Essas condições são essenciais para a análise do comportamento transiente do sistema para correta interpretação da carga térmica e desempenho do sistema de condicionamento de ar.
+Ainda na primeira análise, é de suma importância conhecer as condições de operação do sistema antes de iniciar os testes. A Tabela \ref{tab:pertubaçõesTransienteCondiçõesIniciais} apresenta essas condições antes de cada perturbação. Elas são essenciais para a análise do comportamento transiente do sistema para correta interpretação da carga térmica e desempenho do sistema de condicionamento de ar.
 
 
 \begin{table}[htb]
@@ -93,7 +93,7 @@ Na segunda análise, o intuito principal muda. Pretende-se gerar uma perturbaç�
     \label{tab:pertubaçõesHisterese}
 \end{table}
 
-Também se faz necessário conhecer as condições de operação do sistema antes de iniciar os testes da segunda análise. A Tabela \ref{tab:pertubaçõesHistereseCondiçõesIniciais} apresenta então estas condições  antes de cada perturbação. Essenciais da mesma forma que as condições de operação da primeira análise para correta comparação do comportamento do sistema. Observa-se que as condições de temperatura e umidade permanecem as mesmas para ambas as perturbações.
+Também se faz necessário conhecer as condições de operação do sistema antes de iniciar os testes da segunda análise. A Tabela \ref{tab:pertubaçõesHistereseCondiçõesIniciais} apresenta então essas condições  antes de cada perturbação. Essenciais da mesma forma que as condições de operação da primeira análise para correta comparação do comportamento do sistema. Observa-se que as condições de temperatura e umidade permanecem as mesmas para ambas as perturbações.
 
 \begin{table}[htb]
     \centering
@@ -114,7 +114,7 @@ Também se faz necessário conhecer as condições de operação do sistema ante
     \label{tab:pertubaçõesHistereseCondiçõesIniciais}
 \end{table}
 
-Para alterar a rotação do compressor, o laboratório \textcite{reve2023} tem à sua disposição um inversor CFW-300 da WEG conforme a Figura \ref{fig:inversor CFW-300}. O inversor controla a amplitude e frequência do sinal (em Hertz) de tensão alternada que chega até o motor trifásico, que é acoplado ao compressor através de uma embreagem eletromagnética. Este sinal de tensão com frequência diferente da rede elétrica é, então, responsável por controlar a velocidade de rotação do motor e, por consequência, do compressor. A variação da frequência pode ser facilmente alterada nos parâmetros do inversor e, com a ajuda de uma tabela experimental do laboratório, é possível saber a correspondência da rotação em Hertz do sinal gerado pela rotação do compressor em RPM.
+Para alterar a rotação do compressor, o laboratório \textcite{reve2023} tem à sua disposição um inversor CFW-300 da WEG, conforme a Figura \ref{fig:inversor CFW-300}. O inversor controla a amplitude e a frequência do sinal (em Hertz) de tensão alternada que chega até o motor trifásico, que é acoplado ao compressor através de uma embreagem eletromagnética. Este sinal de tensão com frequência diferente da rede elétrica é, então, responsável por controlar a velocidade de rotação do motor e, por consequência, do compressor. A variação da frequência pode ser facilmente alterada nos parâmetros do inversor e, com a ajuda de uma tabela experimental do laboratório, é possível saber a correspondência da rotação em Hertz do sinal gerado pela rotação do compressor em RPM.
 
 \begin{figure}[h]
     \centering
@@ -124,7 +124,7 @@ Para alterar a rotação do compressor, o laboratório \textcite{reve2023} tem �
     {\footnotesize Fonte: O Autor (2025)}
 \end{figure}
 
-A posição do ventilador pode ser alterada em um painel analógico que é similar ao de muitos automóveis comerciais, como mostra a Figura \ref{fig:painelMudançadeVelocidadeVentilador}. É evidente que, diferentemente da frequência de rotação do compressor, o controle da vazão de ar do ventilador é menos preciso. A posição 0 representa o ventilador completamente desligado,enquanto as posições 1-4 representam um crescente de velocidade. A vazão de ar do ventilador nestas posições foi aferida em testes anteriores e estes dados estão inclusos no artigo de \textcite{ExperimentalThermalPerformance}.
+A posição do ventilador pode ser alterada em um painel analógico que é similar ao de muitos automóveis comerciais, como mostra a Figura \ref{fig:painelMudançadeVelocidadeVentilador}. É evidente que, diferentemente da rotação do compressor, o controle da vazão de ar do ventilador é menos preciso. A posição 0 representa o ventilador completamente desligado, enquanto as posições 1-4 representam um crescente de velocidade. A vazão de ar do ventilador nestas posições foi aferida em testes anteriores e esses dados das posições 1 e 3 estão inclusos no artigo de \textcite{ExperimentalThermalPerformance}.
 \newpage
 \begin{figure}[h]
     \centering
@@ -167,13 +167,13 @@ Um bom exemplo de como o algoritmo funciona é apresentado na Figura \ref{fig:ex
 \end{figure}
 \subsection{\MakeUppercase{Análise e Comparação das Histereses}} \label{subsec:Método de Análise da Histerese}
 
-Antes de realizar as análises em si, é preciso definir uma forma de comparar a histerese de várias variáveis diferentes de forma única. A histerese é usualmente definida como a área entre as curvas de subida e descida,isto é, a diferença de caminho entre a ida e volta a um mesmo ponto. A fim de ser possível relacionar diferentes variáveis com variações distintas, a histerese será calculada da seguinte forma: é feito o cálculo da diferença entre a área das curvas de subida e descida da velocidade de rotação do compressor, então esta área é dividida pela multiplicação dos intervalos das variáveis nos eixos t e y a fim de normalizá-la; por fim, é aplicado o módulo neste número. De forma genérica pode-se escrever a fórmula utilizada para o cálculo da histerese normalizada $\text{H}_\text{norm}$ como:
+Antes de realizar as análises em si, é preciso definir uma forma de comparar a histerese de várias variáveis diferentes de forma única. A histerese é usualmente definida como a área entre as curvas de subida e descida, isto é, a diferença de caminho entre a ida e volta a um mesmo ponto. A fim de ser possível relacionar diferentes variáveis com variações distintas, a histerese será calculada da seguinte forma: é feito o cálculo da diferença entre a área das curvas de subida e descida da velocidade de rotação do compressor, então esta área é dividida pela multiplicação dos intervalos das variáveis nos eixos t e y a fim de normalizá-la; por fim, é aplicado o módulo neste número. De forma genérica pode-se escrever a fórmula utilizada para o cálculo da histerese normalizada $\text{H}_\text{norm}$ como:
 
 \begin{equation}
     H_{norm} = \abs*{{\frac{\int_{t_0} ^t  f_{subida}(t) dt - \int_{t_0} ^t  f_{descida}(t) dt   }{\Delta y\Delta t }}}
     \label{eq:histerese normalizada}
 \end{equation}
-\\
+\newpage
 Em que t representa o tempo do teste, e as funções genéricas $f$ podem representar: temperatura, pressão ou vazão de fluido refrigerante. No entanto, como estas funções de ida e da volta na equação \ref{eq:histerese normalizada} são desconhecidas, dada a natureza do estudo experimental, estas integrais são calculadas de forma numérica utilizando o método numérico de 1/3 de Simpson composto \cite{ChapraNumerico}. Uma representação visual do que a equação \ref{eq:histerese normalizada} representa é apresentada na Figura \ref{fig:representação visual da histerese normalizada}, as funções $f_{subida}(t)$ e $f_{descida}(t)$ são representadas pelas curvas contínuas e o retângulo tracejado representa a área $\Delta y \Delta t$. Ao encontrar a área entre as duas curvas e dividi-la pela área do retângulo em que elas estão inscritas, encontra-se a porcentagem de histerese de determinada variável, o que facilita a comparação entre as diferentes condições operacionais analisadas.
 
 \begin{figure}[h]
@@ -212,7 +212,7 @@ Em que t representa o tempo do teste, e as funções genéricas $f$ podem repres
 \newpage
 \subsection{\MakeUppercase{Determinação do COP do Sistema}} \label{subsec:Determinação do COP do Sistema}
 
-O COP segue alguns dos métodos e dados experimentais já utilizados e existentes no laboratório \textcite{reve2023}, como no artigo de \textcite{ExperimentalThermalPerformance} no qual já constam dados experimentais da taxa de transferência de massa necessária para calcular o COP nas condições deste artigo. Isto é, o COP será avaliado da seguinte forma:
+O COP segue alguns dos métodos e dados experimentais já utilizados e existentes no laboratório \textcite{reve2023}, como no artigo de \textcite{ExperimentalThermalPerformance} no qual já constam dados experimentais da vazão mássica necessária para calcular o COP nas condições deste artigo. Isto é, o COP será avaliado da seguinte forma:
 
 \begin{equation}
     COP = \frac{\dot Q_e}{\dot W}
@@ -225,4 +225,4 @@ Em que $\dot W$ é a potência consumida pelo compressor e $ \dot Q_e$ é a capa
     \dot Q_e = \dot m_{ar}(h_{ar,entrada} - h_{ar,saida})
 \end{equation}
 
-Em que $\dot m_{ar}$ é a vazão mássica de ar e $h_{ar}$ é a entalpia do ar úmido. Os valores de $\dot m_{ar}$ foram medido como 0,037 kg/s e 0,071 kg/s para as posições do ventilador 1 e 4 respectivamente, dados experimentais provenientes do artigo de \textcite{ExperimentalThermalPerformance} e do laboratório \textcite{reve2023}. Os dados de entalpia são determinados utilizando o software EES, para o cálculo das entalpias de entrada, os dados experimentais da temperatura e umidade relativa de entrada do evaporador foram utilizados, assumindo pressão constante igual a uma atmosfera. Para as entalpias de saída, foi também assumida uma pressão constante de uma atmosfera e utilizado os dados de temperatura e umidade relativa de saída do evaporador. 
+Em que $\dot m_{ar}$ é a vazão mássica de ar e $h_{ar}$ é a entalpia do ar úmido. Os valores de $\dot m_{ar}$ foram medidos como 0,037 kg/s e 0,071 kg/s para as posições do ventilador 1 e 4, respectivamente, dados experimentais provenientes do artigo de \textcite{ExperimentalThermalPerformance} e do laboratório \textcite{reve2023}. Os dados de entalpia são determinados utilizando o software EES. Para o cálculo das entalpias de entrada, os dados experimentais da temperatura e umidade relativa de entrada do evaporador foram utilizados, assumindo pressão constante igual a uma atmosfera. Para as entalpias de saída, foi também assumida uma pressão constante de uma atmosfera e utilizados os dados de temperatura e umidade relativa de saída do evaporador. 
