@@ -65,6 +65,10 @@ language=brazilian,
 repeatfields=true
 ]{biblatex}
 
+\usepackage{needspace}
+
+% make sure each bib item starts only if at least N lines fit on the page
+\AtEveryBibitem{\needspace{5\baselineskip}}
 %\renewcommand{\abntetalchar}{\textit{et al.}}
 
 % Custom macro to show "Disponível em:" and "Acesso em:"

@@ -265,12 +265,6 @@
       \verb{doi}
       \verb https://doi.org/10.1016/j.tsep.2021.101048
       \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S2451904921002092
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S2451904921002092
-      \endverb
     \endentry
     \entry{dasilva2016}{inproceedings}{}{}
       \name{author}{2}{}{%
@@ -740,12 +734,6 @@
       \range{pages}{11}
       \verb{doi}
       \verb https://doi.org/10.1016/j.ijrefrig.2020.10.012
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0140700720304229
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0140700720304229
       \endverb
     \endentry
     \entry{ministerio2024}{online}{}{}
