@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.19)  1 SEP 2025 22:11
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.19)  2 SEP 2025 12:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1296,13 +1296,13 @@ Package csquotes Info: ... none found.
 
 
 Package csquotes Warning: No multilingual support.
-(csquotes)                Cannot enable multilingual quotes on input line 170.
+(csquotes)                Cannot enable multilingual quotes on input line 171.
 
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=minfull'
 .
-(biblatex)                Setting 'uniquename=mininit on input line 170.
+(biblatex)                Setting 'uniquename=mininit on input line 171.
 
 (main.aux (AntesdoTexto/1-Capa.aux) (AntesdoTexto/2-Resumos.aux)
 (AntesdoTexto/3-Agradecimentos.aux) (AntesdoTexto/4-Listas e Sumário.aux)
@@ -1310,26 +1310,26 @@ Package biblatex Warning: Conflicting options.
 (Sections/3-ResultadosDiscussão.aux) (Sections/4-Conclusão.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1372,58 +1372,58 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 170.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 170.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 170.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 170.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 170.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 170.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 170.
-LaTeX Font Info:    Redeclaring math accent \check on input line 170.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 170.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 170.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 170.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 170.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 170.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 171.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 171.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 171.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 171.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 171.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 171.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 171.
+LaTeX Font Info:    Redeclaring math accent \check on input line 171.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 171.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 171.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 171.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 171.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 170.
+(Font)              `operators' in the math version `normal' on input line 171.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 170.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 171.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 170.
+(Font)              `operators' in the math version `bold' on input line 171.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 170.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 171.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 170.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 170.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 170.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 170.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 170.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 171.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 170.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 170.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 170.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 171.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 170.
-Package hyperref Info: Link coloring ON on input line 170.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 171.
+Package hyperref Info: Link coloring ON on input line 171.
 (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1433,22 +1433,22 @@ Package hyperref Info: Link coloring ON on input line 170.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 170.
+ on input line 171.
 
 \symgns@font=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/b/n on input line 170.
-Package gensymb Info: Math companion symbols declared on input line 170.
-LaTeX Info: Redefining \degree on input line 170.
-LaTeX Info: Redefining \celsius on input line 170.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/b/n on input line 171.
+Package gensymb Info: Math companion symbols declared on input line 171.
+LaTeX Info: Redefining \degree on input line 171.
+LaTeX Info: Redefining \celsius on input line 171.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 170.
-LaTeX Info: Redefining \ohm on input line 170.
-Package gensymb Info: Using \textohm for \ohm on input line 170.
-Package gensymb Info: Using \textmu for \micro on input line 170.
+erthousand on input line 171.
+LaTeX Info: Redefining \ohm on input line 171.
+Package gensymb Info: Using \textohm for \ohm on input line 171.
+Package gensymb Info: Using \textmu for \micro on input line 171.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Package csquotes Info: Making character " active on input line 170.
+Package csquotes Info: Making character " active on input line 171.
 Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
 ..
 Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
@@ -1510,8 +1510,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 170.
-Package biblatex Info: Reference segment=0 on input line 170.
+Package biblatex Info: Reference section=0 on input line 171.
+Package biblatex Info: Reference segment=0 on input line 171.
 \openout2 = `AntesdoTexto/1-Capa.aux'.
 
  (AntesdoTexto/1-Capa.tex
@@ -1886,12 +1886,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46397 strings out of 403341
- 1080614 string characters out of 5463121
- 2110074 words of memory out of 5000000
+ 46398 strings out of 403341
+ 1080624 string characters out of 5463121
+ 2109077 words of memory out of 5000000
  74028 multiletter control sequences out of 15000+600000
  631911 words of font info for 81 fonts, out of 8000000 for 9000
- 1368 hyphenation exceptions out of 8191
+ 1369 hyphenation exceptions out of 8191
  84i,16n,98p,1341b,5322s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (47 pages).
